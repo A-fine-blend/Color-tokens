@@ -146,47 +146,47 @@
       "success": {
         "50": {
           "$type": "color",
-          "$value": "#edfcf2"
+          "$value": "#e2f9e9"
         },
         "100": {
           "$type": "color",
-          "$value": "#e2f9e9"
+          "$value": "#beedcc"
         },
         "200": {
           "$type": "color",
-          "$value": "#cbf2d6"
+          "$value": "#98e3b3"
         },
         "300": {
           "$type": "color",
-          "$value": "#b8ebc7"
+          "$value": "#5bd18d"
         },
         "400": {
           "$type": "color",
-          "$value": "#85e0a8"
+          "$value": "#24ba6a"
         },
         "500": {
           "$type": "color",
-          "$value": "#41c67b"
+          "$value": "#1bab60"
         },
         "600": {
           "$type": "color",
-          "$value": "#10854a"
+          "$value": "#0e7744"
         },
         "700": {
           "$type": "color",
-          "$value": "#0e7142"
+          "$value": "#0e6039"
         },
         "800": {
           "$type": "color",
-          "$value": "#0e623a"
+          "$value": "#0c4c2f"
         },
         "900": {
           "$type": "color",
-          "$value": "#0b442a"
+          "$value": "#093a24"
         },
         "950": {
           "$type": "color",
-          "$value": "#color"
+          "$value": "#052718"
         }
       },
       "warning": {
