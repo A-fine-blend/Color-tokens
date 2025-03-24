@@ -457,7 +457,15 @@
       }
     }
   },
-  "$themes": [],
+  "$themes": [
+    {
+      "id": "f396bad429cd316544081eba22e6b8eeb569a300",
+      "name": "Light mode",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {},
+      "group": "Prism"
+    }
+  ],
   "$metadata": {
     "tokenSetOrder": [
       "Foundation"
