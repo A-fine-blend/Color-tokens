@@ -53,10 +53,6 @@
             "$value": "#ffffff",
             "$description": "Extra-dark color token to support dark mode"
           },
-          "1100": {
-            "$type": "color",
-            "$value": "#ffffff"
-          },
           "00": {
             "$type": "color",
             "$value": "#ffffff"
@@ -3154,7 +3150,6 @@
         "Foundation.Alpha.Neutral.800": "3eb0b8529bf2a892a9b9094779afa3f8205030f0",
         "Foundation.Alpha.Neutral.900": "ebf104959fbadda579fbcecd9dd8662c89ceaf4b",
         "Foundation.Alpha.Neutral.950": "cdef94a21e3e24cee564d6baaed6c091f1e7fb57",
-        "Foundation.General.Neutral.1100": "b4f159d9beb6eec04152e6bf50f3fa4c6375ca47",
         "Foundation.Alpha.Neutral.1000": "402de595cc4748ad69b8c6679c15765acad9c729",
         "Foundation.Alpha.Neutral.1100": "b00f4b9359cab208348fadfa0ff636310a25c3f0",
         "Foundation.Alpha.Info.800": "5a50923ed0b3267c5a0c1b159253d6d27f655892",
@@ -3511,7 +3506,6 @@
         "Foundation.Alpha.Neutral.800": "3eb0b8529bf2a892a9b9094779afa3f8205030f0",
         "Foundation.Alpha.Neutral.900": "ebf104959fbadda579fbcecd9dd8662c89ceaf4b",
         "Foundation.Alpha.Neutral.950": "cdef94a21e3e24cee564d6baaed6c091f1e7fb57",
-        "Foundation.General.Neutral.1100": "b4f159d9beb6eec04152e6bf50f3fa4c6375ca47",
         "Foundation.Alpha.Neutral.1000": "402de595cc4748ad69b8c6679c15765acad9c729",
         "Foundation.Alpha.Neutral.1100": "b00f4b9359cab208348fadfa0ff636310a25c3f0",
         "Foundation.Alpha.Info.800": "5a50923ed0b3267c5a0c1b159253d6d27f655892",
@@ -3734,7 +3728,8 @@
         "Aliases.Chart.Success.Fill.High": "626f75ad8da100b20f4632eaaaaf72ea3ac7f731",
         "Aliases.Chart.Warning.Fill.Normal": "0b8de7553b2efce8a638ee6b1e1d578870481c0e",
         "Aliases.Chart.Warning.Fill.Low": "7355428ece80ba67af6fc8f2c37845443ccc0fe3",
-        "Aliases.Chart.Warning.Fill.High": "61aba5d3a9fd20c55495820c871e07482f796bcc"
+        "Aliases.Chart.Warning.Fill.High": "61aba5d3a9fd20c55495820c871e07482f796bcc",
+        "Foundation.General.Neutral.1100": "b4f159d9beb6eec04152e6bf50f3fa4c6375ca47"
       },
       "$figmaModeId": "24516:0",
       "$figmaCollectionId": "VariableCollectionId:584:79852"
