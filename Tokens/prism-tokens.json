@@ -3020,12 +3020,6 @@
       }
     }
   },
-  "test": {
-    "Info": {
-      "$type": "color",
-      "$value": "#4297FF"
-    }
-  },
   "$themes": [
     {
       "id": "1. colors-light mode",
@@ -3745,8 +3739,7 @@
     "tokenSetOrder": [
       "1. Colors",
       "1. Colors/Light mode",
-      "1. Colors/Dark mode",
-      "test"
+      "1. Colors/Dark mode"
     ]
   }
 }
