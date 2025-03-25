@@ -1,0 +1,4090 @@
+{
+  "1. Colors": {},
+  "1. Colors/Light mode": {
+    "Foundation": {
+      "General": {
+        "Neutral": {
+          "50": {
+            "$type": "color",
+            "$value": "#f9fafb"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#f2f4f8"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#e6e9ef"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#dbe0e6"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#c7ced6"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#a8b0bd"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#66768a"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#52647a"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#44586d"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#2e3d4b"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#1f2124"
+          },
+          "1000": {
+            "$type": "color",
+            "$value": "#ffffff",
+            "$description": "Extra-dark color token to support dark mode"
+          },
+          "00": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
+        },
+        "Success": {
+          "50": {
+            "$type": "color",
+            "$value": "#e2f9e9"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#beedcc"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#98e3b3"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#5bd18d"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#28be6d"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#1bab60"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#0e7744"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#0e6039"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#0c4c2f"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#093a24"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#052718"
+          }
+        },
+        "Warning": {
+          "50": {
+            "$type": "color",
+            "$value": "#fff2d5"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#ffde96"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#ffca66"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#ffa926"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#fc8907"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#ef7204"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#b83f06"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#97300c"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#79270d"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#5e1c05"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#421102"
+          }
+        },
+        "Critical": {
+          "50": {
+            "$type": "color",
+            "$value": "#fff0ee"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#ffdad6"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#ffc5c0"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#ffa399"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#fe8276"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#f96657"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#cd1c07"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#a12113"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#7d2119"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#611711"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#450c08"
+          }
+        },
+        "Intelligence": {
+          "50": {
+            "$type": "color",
+            "$value": "#f5f2ff",
+            "$description": "AI and Automation"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#e5deff",
+            "$description": "AI and Automation"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#d7cbff",
+            "$description": "AI and Automation"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#c5afff",
+            "$description": "AI and Automation"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#b595ff",
+            "$description": "AI and Automation"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#a87eff",
+            "$description": "AI and Automation"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#7f31fd",
+            "$description": "AI and Automation"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#6a0be1",
+            "$description": "AI and Automation"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#5816a9",
+            "$description": "AI and Automation"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#441280",
+            "$description": "AI and Automation"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#2d0c5a",
+            "$description": "AI and Automation"
+          }
+        },
+        "Brand": {
+          "50": {
+            "$type": "color",
+            "$value": "#fff7ed"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#ffecd4"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#ffd5a9"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#fea967"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#fd8a44"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#fb6214"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#ec470a"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#c4330a"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#9c2f10"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#76260f"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#140806"
+          }
+        },
+        "Info": {
+          "50": {
+            "$type": "color",
+            "$value": "#ebf6ff"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#cce6ff"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#add8ff"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#81c1ff"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#5eaaff"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#4297ff"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#125fe3"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#1549c1"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#0d39a0"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#0b238e"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#061567"
+          }
+        }
+      },
+      "Data": {
+        "Categorical": {
+          "10": {
+            "$type": "color",
+            "$value": "#00518b"
+          },
+          "11": {
+            "$type": "color",
+            "$value": "#a37530"
+          },
+          "12": {
+            "$type": "color",
+            "$value": "#fdd886"
+          },
+          "13": {
+            "$type": "color",
+            "$value": "#7f67bf"
+          },
+          "14": {
+            "$type": "color",
+            "$value": "#58be1d"
+          },
+          "15": {
+            "$type": "color",
+            "$value": "#d7f8ae"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#a1b4c5"
+          },
+          "17": {
+            "$type": "color",
+            "$value": "#5cb9f4"
+          },
+          "18": {
+            "$type": "color",
+            "$value": "#e13038"
+          },
+          "19": {
+            "$type": "color",
+            "$value": "#1f3d57"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#2c91d4"
+          },
+          "21": {
+            "$type": "color",
+            "$value": "#ac5a03"
+          },
+          "01": {
+            "$type": "color",
+            "$value": "#157bc1"
+          },
+          "02": {
+            "$type": "color",
+            "$value": "#f9ad24"
+          },
+          "03": {
+            "$type": "color",
+            "$value": "#f74f57"
+          },
+          "04": {
+            "$type": "color",
+            "$value": "#c3b3e8"
+          },
+          "05": {
+            "$type": "color",
+            "$value": "#94e1e3"
+          },
+          "06": {
+            "$type": "color",
+            "$value": "#9a0165"
+          },
+          "07": {
+            "$type": "color",
+            "$value": "#ff9da2"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#4c657b"
+          },
+          "09": {
+            "$type": "color",
+            "$value": "#a8e07e"
+          }
+        },
+        "Info": {
+          "50": {
+            "$type": "color",
+            "$value": "#c8defc"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#afd2fe"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#92c4ff"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#74b6ff"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#57a5ff"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#3e92fb"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#2c7feb"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#1f6bd8"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#1456c3"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#0e3ea9"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#0b238e"
+          }
+        },
+        "Critical": {
+          "50": {
+            "$type": "color",
+            "$value": "#f9cdcd"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#fdb7b7"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#ffa1a0"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#ff8a88"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#ff6f6b"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#f85553"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#ea4041"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#d62e32"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#bf2227"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#a5191e"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#8a0f15"
+          }
+        },
+        "Warning": {
+          "50": {
+            "$type": "color",
+            "$value": "#ffedc6"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#fedc9d"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#ffc974"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#ffb44a"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#f9a10c"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#e99201"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#d68400"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#c07800"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#aa6b00"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#935e05"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#7a500d"
+          }
+        },
+        "Success": {
+          "50": {
+            "$type": "color",
+            "$value": "#c6f0d2"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#a9e6bc"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#8adba6"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#68d190"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#46c47d"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#37b370"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#2aa163"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#1f8954"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#1a7b4b"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#13663e"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#0d5030"
+          }
+        },
+        "Intelligence": {
+          "50": {
+            "$type": "color",
+            "$value": "#e9e3ff"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#dcd0ff"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#cfbcff"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#c2a7ff"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#b491ff"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#a47bf6"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#9567e3"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#8552cb"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#743bae"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#602391"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#490070"
+          }
+        },
+        "Neutral": {
+          "50": {
+            "$type": "color",
+            "$value": "#e5e9ef"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#d2d8e1"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#c0c7d3"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#adb6c2"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#9ba3b0"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#89919c"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#767d87"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#626871"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#4e535a"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#383b40"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#1f2124"
+          },
+          "00": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
+        }
+      },
+      "Alpha": {
+        "Neutral": {
+          "50": {
+            "$type": "color",
+            "$value": "#37587a08"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#26488a0f"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#05235f1a"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#0f2a5226"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#00204538"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#061d4259"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#001b3c99"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#011b3bad"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#021d3abd"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#001223d1"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#000306e0"
+          },
+          "1000": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "1100": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "00": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
+        },
+        "Info": {
+          "50": {
+            "$type": "color",
+            "$value": "#058fff14"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#0082ff33"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#0789ff54"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#0383ff80"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#0078ffa8"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#0374ffbf"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#0150d7f5"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#0139bceb"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#002f9bf2"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#011a89f5"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#011064fa"
+          }
+        }
+      }
+    },
+    "Aliases": {
+      "Background": {
+        "data-bar": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.300}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Foundation.Alpha.Neutral.200}"
+        },
+        "level-3": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.200}",
+          "$description": "dddd"
+        },
+        "level-2": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.100}"
+        },
+        "level-1": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.50}"
+        },
+        "success-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.100}"
+        },
+        "crtitical-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.100}"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.900}"
+        },
+        "overlay": {
+          "$type": "color",
+          "$value": "{Foundation.Alpha.Neutral.600}"
+        },
+        "intelligence": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.100}",
+          "$description": "AI and Automation"
+        },
+        "critical": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.50}"
+        },
+        "warning-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.100}"
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.50}"
+        },
+        "Info-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.100}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.50}"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.50}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.00}"
+        }
+      },
+      "Border": {
+        "brand": {
+          "$type": "color",
+          "$value": "{Foundation.General.Brand.200}"
+        },
+        "intelligence": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.200}",
+          "$description": "AI and Automation"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.200}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.200}"
+        },
+        "critical-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.500}"
+        },
+        "Info": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.200}"
+        },
+        "emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.300}"
+        },
+        "brand-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Brand.500}"
+        },
+        "success-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.500}"
+        },
+        "intelligence-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.500}",
+          "$description": "AI and Automation"
+        },
+        "critical": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.200}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.200}"
+        }
+      },
+      "Text": {
+        "brand": {
+          "$type": "color",
+          "$value": "{Foundation.General.Brand.600}"
+        },
+        "intelligence": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.900}",
+          "$description": "AI and Automation"
+        },
+        "critical": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.600}"
+        },
+        "on-warning": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.950}"
+        },
+        "intelligence-subdued": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.700}",
+          "$description": "AI and Automation"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.00}"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.600}"
+        },
+        "placeholder": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.600}"
+        },
+        "on-success": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.950}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.600}"
+        },
+        "on-brand": {
+          "$type": "color",
+          "$value": "{Foundation.General.Brand.950}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.500}"
+        },
+        "on-info": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.950}"
+        },
+        "Info": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.600}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.900}"
+        },
+        "emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.950}"
+        },
+        "on-critical": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.950}"
+        },
+        "subdued": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.700}"
+        }
+      },
+      "Icon": {
+        "on-success": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.600}"
+        },
+        "on-info": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.600}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.500}"
+        },
+        "on-intelligence": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.600}",
+          "$description": "AI and Automation"
+        },
+        "subdued": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.600}"
+        },
+        "intelligence": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.500}",
+          "$description": "AI and Automation"
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.500}"
+        },
+        "emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.900}"
+        },
+        "crtitical": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.500}"
+        },
+        "on-warning": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.800}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.500}"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.00}"
+        },
+        "on-critical": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.600}"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.500}"
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{Foundation.General.Brand.500}"
+        },
+        "on-brand": {
+          "$type": "color",
+          "$value": "{Foundation.General.Brand.600}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.800}"
+        }
+      },
+      "Interactive": {
+        "Background": {
+          "Primary": {
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.800}"
+            },
+            "selected": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.800}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.700}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.600}"
+            }
+          },
+          "Secondary": {
+            "selected": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Neutral.500}"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Neutral.300}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Neutral.200}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Neutral.100}"
+            }
+          },
+          "Tertiary": {
+            "selected": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Info.50}"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Neutral.200}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Neutral.100}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Neutral.00}"
+            }
+          },
+          "Ghost": {
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Neutral.200}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Neutral.100}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Neutral.00}"
+            }
+          },
+          "Success": {
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Success.800}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Success.700}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Success.600}"
+            }
+          },
+          "Warning": {
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Warning.300}"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Warning.400}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Warning.200}"
+            }
+          },
+          "Critical": {
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Critical.700}"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Critical.800}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Critical.600}"
+            }
+          }
+        },
+        "Border": {
+          "Secondary": {
+            "Active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.600}"
+            },
+            "Hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.500}"
+            },
+            "Default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.400}"
+            }
+          },
+          "Critical": {
+            "Default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Critical.600}"
+            },
+            "Active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Critical.800}"
+            },
+            "Hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Critical.700}"
+            }
+          },
+          "Warning": {
+            "Default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Warning.400}"
+            },
+            "Hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Warning.500}"
+            },
+            "Active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Warning.600}"
+            }
+          }
+        },
+        "Text": {
+          "Color": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "Primary": {
+            "Selected": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.900}"
+            },
+            "Active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.800}"
+            },
+            "Hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.700}"
+            },
+            "Default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.600}"
+            }
+          },
+          "Secondary": {
+            "Selected": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.950}"
+            },
+            "Active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.950}"
+            },
+            "Hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.800}"
+            },
+            "Default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.900}"
+            }
+          }
+        }
+      },
+      "Chart": {
+        "Crtitical": {
+          "Background": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.50}"
+            },
+            "Low-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.100}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.300}"
+            },
+            "Normal-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.400}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.600}"
+            },
+            "High-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.700}"
+            }
+          },
+          "Fill": {
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.600}"
+            },
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.300}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.900}"
+            }
+          }
+        },
+        "Success": {
+          "Background": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.50}"
+            },
+            "Low-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.100}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.300}"
+            },
+            "Normal-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.400}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.600}"
+            },
+            "High-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.700}"
+            }
+          },
+          "Fill": {
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.600}"
+            },
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.300}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.900}"
+            }
+          }
+        },
+        "Warning": {
+          "Background": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.50}"
+            },
+            "Low-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.100}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.300}"
+            },
+            "Normal-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.400}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.600}"
+            },
+            "High-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.700}"
+            }
+          },
+          "Fill": {
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.600}"
+            },
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.300}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.900}"
+            }
+          }
+        },
+        "Neutral": {
+          "Background": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.50}"
+            },
+            "Low-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.100}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.300}"
+            },
+            "Normal-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.400}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.600}"
+            },
+            "High-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.700}"
+            }
+          },
+          "Fill": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.300}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.600}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.900}"
+            }
+          }
+        },
+        "Primary": {
+          "Background": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.50}"
+            },
+            "Low-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.100}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.300}"
+            },
+            "Normal-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.400}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.600}"
+            },
+            "High-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.700}"
+            }
+          },
+          "Fill": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.300}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.600}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.900}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "1. Colors/Dark mode": {
+    "Foundation": {
+      "General": {
+        "Neutral": {
+          "50": {
+            "$type": "color",
+            "$value": "#1d1f24"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#262a33"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#2f3744"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#384253"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#425064"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#4a5b73"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#5b6c83"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#748297"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#929eaf"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#acb5c3"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#c5cbd6"
+          },
+          "1000": {
+            "$type": "color",
+            "$value": "#e6e9ef",
+            "$description": "Extra-dark color token to support dark mode"
+          },
+          "1100": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "00": {
+            "$type": "color",
+            "$value": "#14181c"
+          }
+        },
+        "Success": {
+          "50": {
+            "$type": "color",
+            "$value": "#183627"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#1e402e"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#234a34"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#28543a"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#356e4c"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#438a5c"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#53a872"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#72c38f"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#9bd9b1"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#ceecd6"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#e7f7ec"
+          }
+        },
+        "Warning": {
+          "50": {
+            "$type": "color",
+            "$value": "#502416"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#5d2b1c"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#6a3222"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#783927"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#9e4b31"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#bd643d"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#da814c"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#eba35a"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#f1c47c"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#f7e2b4"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#fbf2de"
+          }
+        },
+        "Critical": {
+          "50": {
+            "$type": "color",
+            "$value": "#52211b"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#602922"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#6d3027"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#7d342b"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#ab4032"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#cd5745"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#e27a6d"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#ec9e95"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#f2bfba"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#f8dfdd"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#fbf1ef"
+          }
+        },
+        "Intelligence": {
+          "50": {
+            "$type": "color",
+            "$value": "#3b2266",
+            "$description": "AI and Automation"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#442877",
+            "$description": "AI and Automation"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#4f2f8a",
+            "$description": "AI and Automation"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#5a359b",
+            "$description": "AI and Automation"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#6e48d1",
+            "$description": "AI and Automation"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#8a66de",
+            "$description": "AI and Automation"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#a389e4",
+            "$description": "AI and Automation"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#baa8eb",
+            "$description": "AI and Automation"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#cfc5f1",
+            "$description": "AI and Automation"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#e7e2f7",
+            "$description": "AI and Automation"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#f5f1fc",
+            "$description": "AI and Automation"
+          }
+        },
+        "Brand": {
+          "50": {
+            "$type": "color",
+            "$value": "#140806"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#6b2211"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#912911"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#bc2d0d"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#e93e0d"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#fa5714"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#fd7f3c"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#fe9f5c"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#ffcf9f"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#ffe9ce"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#fff6ea"
+          }
+        },
+        "Info": {
+          "50": {
+            "$type": "color",
+            "$value": "#142a6f"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#193380"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#1f3f85"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#254892"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#3060bb"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#447cd1"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#609ae4"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#84b6ea"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#abcff1"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#d5e7f8"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#ecf4fc"
+          }
+        }
+      },
+      "Data": {
+        "Categorical": {
+          "10": {
+            "$type": "color",
+            "$value": "#00518b"
+          },
+          "11": {
+            "$type": "color",
+            "$value": "#a37530"
+          },
+          "12": {
+            "$type": "color",
+            "$value": "#fdd886"
+          },
+          "13": {
+            "$type": "color",
+            "$value": "#7f67bf"
+          },
+          "14": {
+            "$type": "color",
+            "$value": "#58be1d"
+          },
+          "15": {
+            "$type": "color",
+            "$value": "#d7f8ae"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#a1b4c5"
+          },
+          "17": {
+            "$type": "color",
+            "$value": "#5cb9f4"
+          },
+          "18": {
+            "$type": "color",
+            "$value": "#e13038"
+          },
+          "19": {
+            "$type": "color",
+            "$value": "#1f3d57"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#2c91d4"
+          },
+          "21": {
+            "$type": "color",
+            "$value": "#ac5a03"
+          },
+          "01": {
+            "$type": "color",
+            "$value": "#157bc1"
+          },
+          "02": {
+            "$type": "color",
+            "$value": "#f9ad24"
+          },
+          "03": {
+            "$type": "color",
+            "$value": "#f74f57"
+          },
+          "04": {
+            "$type": "color",
+            "$value": "#c3b3e8"
+          },
+          "05": {
+            "$type": "color",
+            "$value": "#94e1e3"
+          },
+          "06": {
+            "$type": "color",
+            "$value": "#9a0165"
+          },
+          "07": {
+            "$type": "color",
+            "$value": "#ff9da2"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#4c657b"
+          },
+          "09": {
+            "$type": "color",
+            "$value": "#a8e07e"
+          }
+        },
+        "Info": {
+          "50": {
+            "$type": "color",
+            "$value": "#131f53"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#1c316d"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#244283"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#2b5299"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#3261ac"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#3870bf"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#3d7fcf"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#458cda"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#4f9ae3"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#5aa7ed"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#65b5f6"
+          }
+        },
+        "Critical": {
+          "50": {
+            "$type": "color",
+            "$value": "#501616"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#662323"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#7a302f"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#8e3c3c"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#a04747"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#b25252"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#c35d5d"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#d46868"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#ffa1a0"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#fdb7b7"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#f9cdcd"
+          }
+        },
+        "Warning": {
+          "50": {
+            "$type": "color",
+            "$value": "#663600"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#7a4710"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#8c571f"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#9e682a"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#ad7736"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#bd8641"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#cd944b"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#dca354"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#eab15c"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#f6c057"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#ffd14e"
+          }
+        },
+        "Success": {
+          "50": {
+            "$type": "color",
+            "$value": "#174f34"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#2e5e42"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#436c4f"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#547a5d"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#63876a"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#6d9573"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#79a37b"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#7fb280"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#8bbe8c"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#98ca9a"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#a5d6a7"
+          }
+        },
+        "Intelligence": {
+          "50": {
+            "$type": "color",
+            "$value": "#402244"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#542c59"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#67366e"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#794081"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#8a4994"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#9a52a6"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#aa5bb6"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#b865c5"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#c075cc"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#c785d2"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#ce94d8"
+          }
+        },
+        "Neutral": {
+          "50": {
+            "$type": "color",
+            "$value": "#383b40"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#4e535a"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#626871"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#767d87"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#89919c"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#9ba3b0"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#adb6c2"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#c0c7d3"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#d2d8e1"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#e5e9ef"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "00": {
+            "$type": "color",
+            "$value": "#1f2124"
+          }
+        }
+      },
+      "Alpha": {
+        "Neutral": {
+          "50": {
+            "$type": "color",
+            "$value": "#f5c7e40a"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#b8bced1c"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#aac4fa2e"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#a4c0f840"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#a4c7fd52"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#9ec4fb63"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#aecffc75"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#c3d9fc8c"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#d6e6fea6"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#e1ecfebd"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#ecf2ffd1"
+          },
+          "1000": {
+            "$type": "color",
+            "$value": "#f6f9ffed"
+          },
+          "1100": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "00": {
+            "$type": "color",
+            "$value": "#14181c03"
+          }
+        },
+        "Info": {
+          "50": {
+            "$type": "color",
+            "$value": "#033efa59"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#144efa6e"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#2166fc73"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#2d6ffc82"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#397dffb0"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#4e95ffc9"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#69abfee0"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#8ec5fecf"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#b4dafef0"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#dbedfff7"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#eef6fefc"
+          }
+        }
+      }
+    },
+    "Aliases": {
+      "Background": {
+        "data-bar": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.300}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.300}"
+        },
+        "level-3": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.200}",
+          "$description": "dddd"
+        },
+        "level-2": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.100}"
+        },
+        "level-1": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.00}"
+        },
+        "success-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.100}"
+        },
+        "crtitical-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.100}"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.1000}"
+        },
+        "overlay": {
+          "$type": "color",
+          "$value": "{Foundation.Alpha.Neutral.500}"
+        },
+        "intelligence": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.100}",
+          "$description": "AI and Automation"
+        },
+        "critical": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.50}"
+        },
+        "warning-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.100}"
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.50}"
+        },
+        "Info-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.100}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.50}"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.50}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.50}"
+        }
+      },
+      "Border": {
+        "brand": {
+          "$type": "color",
+          "$value": "{Foundation.General.Brand.200}"
+        },
+        "intelligence": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.200}",
+          "$description": "AI and Automation"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.200}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.200}"
+        },
+        "critical-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.500}"
+        },
+        "Info": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.200}"
+        },
+        "emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.200}"
+        },
+        "brand-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Brand.500}"
+        },
+        "success-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.500}"
+        },
+        "intelligence-emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.500}",
+          "$description": "AI and Automation"
+        },
+        "critical": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.200}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.100}"
+        }
+      },
+      "Text": {
+        "brand": {
+          "$type": "color",
+          "$value": "{Foundation.General.Brand.600}"
+        },
+        "intelligence": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.800}",
+          "$description": "AI and Automation"
+        },
+        "critical": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.800}"
+        },
+        "on-warning": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.950}"
+        },
+        "intelligence-subdued": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.700}",
+          "$description": "AI and Automation"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.50}"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.800}"
+        },
+        "placeholder": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.700}"
+        },
+        "on-success": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.950}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.800}"
+        },
+        "on-brand": {
+          "$type": "color",
+          "$value": "{Foundation.General.Brand.950}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.600}"
+        },
+        "on-info": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.950}"
+        },
+        "Info": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.800}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.950}"
+        },
+        "emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.1000}"
+        },
+        "on-critical": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.950}"
+        },
+        "subdued": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.800}"
+        }
+      },
+      "Icon": {
+        "on-success": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.900}"
+        },
+        "on-info": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.900}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.500}"
+        },
+        "on-intelligence": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.900}",
+          "$description": "AI and Automation"
+        },
+        "subdued": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.700}"
+        },
+        "intelligence": {
+          "$type": "color",
+          "$value": "{Foundation.General.Intelligence.700}",
+          "$description": "AI and Automation"
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{Foundation.General.Info.700}"
+        },
+        "emphasis": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.950}"
+        },
+        "crtitical": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.700}"
+        },
+        "on-warning": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.900}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{Foundation.General.Success.700}"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.100}"
+        },
+        "on-critical": {
+          "$type": "color",
+          "$value": "{Foundation.General.Critical.900}"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{Foundation.General.Warning.700}"
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{Foundation.General.Brand.700}"
+        },
+        "on-brand": {
+          "$type": "color",
+          "$value": "{Foundation.General.Brand.900}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{Foundation.General.Neutral.900}"
+        }
+      },
+      "Interactive": {
+        "Background": {
+          "Primary": {
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.400}"
+            },
+            "selected": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.500}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.300}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.200}"
+            }
+          },
+          "Secondary": {
+            "selected": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.600}"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.400}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.300}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.200}"
+            }
+          },
+          "Tertiary": {
+            "selected": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.50}"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.200}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.100}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.00}"
+            }
+          },
+          "Ghost": {
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Neutral.100}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Neutral.50}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.Alpha.Neutral.00}"
+            }
+          },
+          "Success": {
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Success.800}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Success.700}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Success.600}"
+            }
+          },
+          "Warning": {
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Warning.300}"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Warning.400}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Warning.200}"
+            }
+          },
+          "Critical": {
+            "hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Critical.700}"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Critical.800}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Critical.600}"
+            }
+          }
+        },
+        "Border": {
+          "Secondary": {
+            "Active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.600}"
+            },
+            "Hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.500}"
+            },
+            "Default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.400}"
+            }
+          },
+          "Critical": {
+            "Default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Critical.600}"
+            },
+            "Active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Critical.800}"
+            },
+            "Hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Critical.700}"
+            }
+          },
+          "Warning": {
+            "Default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Warning.400}"
+            },
+            "Hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Warning.500}"
+            },
+            "Active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Warning.600}"
+            }
+          }
+        },
+        "Text": {
+          "Color": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "Primary": {
+            "Selected": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.900}"
+            },
+            "Active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.800}"
+            },
+            "Hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.700}"
+            },
+            "Default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Info.600}"
+            }
+          },
+          "Secondary": {
+            "Selected": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.950}"
+            },
+            "Active": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.950}"
+            },
+            "Hover": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.900}"
+            },
+            "Default": {
+              "$type": "color",
+              "$value": "{Foundation.General.Neutral.800}"
+            }
+          }
+        }
+      },
+      "Chart": {
+        "Crtitical": {
+          "Background": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.50}"
+            },
+            "Low-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.100}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.300}"
+            },
+            "Normal-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.400}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.600}"
+            },
+            "High-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.700}"
+            }
+          },
+          "Fill": {
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.600}"
+            },
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.300}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Critical.900}"
+            }
+          }
+        },
+        "Success": {
+          "Background": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.50}"
+            },
+            "Low-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.100}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.300}"
+            },
+            "Normal-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.400}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.600}"
+            },
+            "High-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.700}"
+            }
+          },
+          "Fill": {
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.600}"
+            },
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.300}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Success.900}"
+            }
+          }
+        },
+        "Warning": {
+          "Background": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.50}"
+            },
+            "Low-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.100}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.300}"
+            },
+            "Normal-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.400}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.600}"
+            },
+            "High-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.700}"
+            }
+          },
+          "Fill": {
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.600}"
+            },
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.300}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Warning.900}"
+            }
+          }
+        },
+        "Neutral": {
+          "Background": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.50}"
+            },
+            "Low-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.100}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.300}"
+            },
+            "Normal-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.400}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.600}"
+            },
+            "High-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.700}"
+            }
+          },
+          "Fill": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.300}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.600}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Neutral.900}"
+            }
+          }
+        },
+        "Primary": {
+          "Background": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.50}"
+            },
+            "Low-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.100}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.300}"
+            },
+            "Normal-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.400}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.600}"
+            },
+            "High-Emphasis": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.700}"
+            }
+          },
+          "Fill": {
+            "Low": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.300}"
+            },
+            "Normal": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.600}"
+            },
+            "High": {
+              "$type": "color",
+              "$value": "{Foundation.Data.Info.900}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "test": {
+    "neutral": {
+      "50": {
+        "$type": "color",
+        "$value": "#f2f4f8",
+        "$description": "Contrast Ratio: 1.1"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#dee2e8",
+        "$description": "Contrast Ratio: 1.29"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#cdd3db",
+        "$description": "Contrast Ratio: 1.5"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#b5bcc7",
+        "$description": "Contrast Ratio: 1.91"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#9ea7b6",
+        "$description": "Contrast Ratio: 2.41"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#8b97a7",
+        "$description": "Contrast Ratio: 2.96"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#59697e",
+        "$description": "Contrast Ratio: 5.57"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#42556a",
+        "$description": "Contrast Ratio: 7.62"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#334455",
+        "$description": "Contrast Ratio: 9.95"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#2a333e",
+        "$description": "Contrast Ratio: 12.76"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#1f2225",
+        "$description": "Contrast Ratio: 15.98"
+      }
+    },
+    "info": {
+      "50": {
+        "$type": "color",
+        "$value": "#eaf5ff",
+        "$description": "Contrast Ratio: 1.1"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#cae5ff",
+        "$description": "Contrast Ratio: 1.29"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#acd7ff",
+        "$description": "Contrast Ratio: 1.5"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#81c1ff",
+        "$description": "Contrast Ratio: 1.91"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#5eaaff",
+        "$description": "Contrast Ratio: 2.41"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#4297ff",
+        "$description": "Contrast Ratio: 2.96"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#125fe3",
+        "$description": "Contrast Ratio: 5.57"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#1549c1",
+        "$description": "Contrast Ratio: 7.62"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#0d39a0",
+        "$description": "Contrast Ratio: 9.95"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#0b238e",
+        "$description": "Contrast Ratio: 12.76"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#081861",
+        "$description": "Contrast Ratio: 15.98"
+      }
+    },
+    "success": {
+      "50": {
+        "$type": "color",
+        "$value": "#e3f9ea",
+        "$description": "Contrast Ratio: 1.1"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#beedcc",
+        "$description": "Contrast Ratio: 1.29"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#99e3b3",
+        "$description": "Contrast Ratio: 1.5"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#5ed18e",
+        "$description": "Contrast Ratio: 1.91"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#2ebe6f",
+        "$description": "Contrast Ratio: 2.41"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#1fab61",
+        "$description": "Contrast Ratio: 2.96"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#0e7745",
+        "$description": "Contrast Ratio: 5.57"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#0e6039",
+        "$description": "Contrast Ratio: 7.62"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#0c4c2f",
+        "$description": "Contrast Ratio: 9.95"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#083a24",
+        "$description": "Contrast Ratio: 12.76"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#062718",
+        "$description": "Contrast Ratio: 15.98"
+      }
+    },
+    "warning": {
+      "50": {
+        "$type": "color",
+        "$value": "#fef2d8",
+        "$description": "Contrast Ratio: 1.1"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#fede99",
+        "$description": "Contrast Ratio: 1.29"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#fecb69",
+        "$description": "Contrast Ratio: 1.5"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#ffa929",
+        "$description": "Contrast Ratio: 1.91"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#fa8a0e",
+        "$description": "Contrast Ratio: 2.41"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#ee7304",
+        "$description": "Contrast Ratio: 2.96"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#b83f05",
+        "$description": "Contrast Ratio: 5.57"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#97300b",
+        "$description": "Contrast Ratio: 7.62"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#79270c",
+        "$description": "Contrast Ratio: 9.95"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#5e1c06",
+        "$description": "Contrast Ratio: 12.76"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#421102",
+        "$description": "Contrast Ratio: 15.98"
+      }
+    },
+    "critical": {
+      "50": {
+        "$type": "color",
+        "$value": "#fef1f0",
+        "$description": "Contrast Ratio: 1.1"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#ffd9d6",
+        "$description": "Contrast Ratio: 1.29"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#ffc5bf",
+        "$description": "Contrast Ratio: 1.5"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#ffa399",
+        "$description": "Contrast Ratio: 1.91"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#fd8378",
+        "$description": "Contrast Ratio: 2.41"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#f86758",
+        "$description": "Contrast Ratio: 2.96"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#cc1d09",
+        "$description": "Contrast Ratio: 5.57"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#a22012",
+        "$description": "Contrast Ratio: 7.62"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#7e2017",
+        "$description": "Contrast Ratio: 9.95"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#611711",
+        "$description": "Contrast Ratio: 12.76"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#450d08",
+        "$description": "Contrast Ratio: 15.98"
+      }
+    },
+    "intelligence": {
+      "50": {
+        "$type": "color",
+        "$value": "#f6f2ff",
+        "$description": "Contrast Ratio: 1.1"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#e5deff",
+        "$description": "Contrast Ratio: 1.29"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#d8ccff",
+        "$description": "Contrast Ratio: 1.5"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#c5afff",
+        "$description": "Contrast Ratio: 1.91"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#b595ff",
+        "$description": "Contrast Ratio: 2.41"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#a87eff",
+        "$description": "Contrast Ratio: 2.96"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#8033fa",
+        "$description": "Contrast Ratio: 5.57"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#6a12de",
+        "$description": "Contrast Ratio: 7.62"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#5815ab",
+        "$description": "Contrast Ratio: 9.95"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#441280",
+        "$description": "Contrast Ratio: 12.76"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#2e0b5a",
+        "$description": "Contrast Ratio: 15.98"
+      }
+    }
+  },
+  "$themes": [
+    {
+      "id": "1. colors-light mode",
+      "name": "Light mode",
+      "group": "1. Colors",
+      "selectedTokenSets": {
+        "1. Colors/Light mode": "enabled"
+      },
+      "$figmaStyleReferences": {},
+      "$figmaVariableReferences": {
+        "Foundation.General.Neutral.00": "a7b13523722518e6f0d5adfdbb5c3f83c929105d",
+        "Foundation.General.Neutral.50": "5e6a4a72f67f160abbcd0339c578faa84036d460",
+        "Foundation.General.Neutral.100": "7924c3b78d4f2540cd91533d16f69548e96c59cc",
+        "Foundation.General.Neutral.200": "6c44293619b3bd9a6240a74d96adfdb7959d6590",
+        "Foundation.General.Neutral.400": "189786919804c3f5ea7933af04101dbd02fc4051",
+        "Foundation.General.Neutral.300": "0184ef92176f445038ab1d290191abee977c6cdc",
+        "Foundation.General.Neutral.500": "107227d4df84bc956d1553ea9e25abe8085e749e",
+        "Foundation.General.Neutral.600": "b6c7123690c0253af62ac8e89d5ab0e31ba8871e",
+        "Foundation.General.Neutral.700": "652ffca842ac1d795fef4807b741462a9cfaf691",
+        "Foundation.General.Neutral.800": "98200a9340f272b39ecf33c7a7f57a845decfe8d",
+        "Foundation.General.Neutral.900": "350af309cf2a2b3358f4b72f1c194f09df9217ee",
+        "Foundation.General.Success.100": "430228e78fb11795816acc79173b7f6edd1b0592",
+        "Foundation.General.Success.300": "8c81e610bb791a0c8de33343fceefaf9b42392eb",
+        "Foundation.General.Success.500": "dcfe5bd5c5c7de7305f3b9970dcfc16990a4ae2b",
+        "Foundation.General.Success.600": "9d60df9e573af571d49e65b320419f5b17e8bba1",
+        "Foundation.General.Success.700": "be214519bec5888786c7146b3dcb650f329e5e88",
+        "Foundation.General.Warning.100": "a8c9ab1f2fe91fb4c3a7fe2540cea13b3d135b63",
+        "Foundation.General.Critical.100": "1509c76980878f99112f7f46acc1bca977b8a5ed",
+        "Foundation.General.Intelligence.100": "de805ceba4773090cb49e9dcdf7db4f61cf10ac9",
+        "Foundation.General.Warning.200": "77fee83f77e5a25e1e1ebf571b866ff9a8f532ba",
+        "Foundation.General.Warning.300": "c82c1539597dc0f1b992a2edb85b22da2b83b064",
+        "Foundation.General.Warning.400": "9a705df1984992ab7d331d1b95b6537bf0ae8610",
+        "Foundation.General.Warning.700": "ac044cb26caf69cebaeeac2166973cdf25e97535",
+        "Foundation.General.Critical.300": "6d578555ec6455f5c434d1c5d6d0449f5f3774af",
+        "Foundation.General.Critical.500": "8304c662b924eda195011696bc0c44ab10f96c5d",
+        "Foundation.General.Critical.600": "eb5fe9ffa62a6ddad3dcb94b669e1aa93dcef19d",
+        "Foundation.General.Critical.700": "65eeeccc639d18c6602d2548ecfe466cd5f487c0",
+        "Foundation.General.Intelligence.200": "06ec911ad4fb5ab8baa227ea766cae2638793d8c",
+        "Foundation.General.Intelligence.400": "73bd6c1bdc82041aaaa98e5dc704244d67d5a005",
+        "Foundation.General.Intelligence.500": "918e7513b74e88bb6aec5e2e1514e91548d8c62e",
+        "Foundation.General.Intelligence.800": "646bdf7b5873165d806918c9db08e61b5c35acde",
+        "Foundation.General.Neutral.950": "a8c90c237833092e53d80b24f6f9df8d263e2851",
+        "Foundation.General.Success.50": "ad30a3087c71f812892591bbdc1d59c2e40d5faf",
+        "Foundation.General.Success.200": "c3861fb999e2446a1405f91fcb0e888efd0bf062",
+        "Foundation.General.Success.400": "584a06bd9cd12390f0aa4e7f853fa6f36a9fa200",
+        "Foundation.General.Success.800": "257b31efdebd0005d4a506729b5aeebb60be1b94",
+        "Foundation.General.Success.900": "f3936b161d74ebebb052b4c7a2f090ebadef9fc5",
+        "Foundation.General.Success.950": "6702202033d5598ce2abc8d433a78ce3e85997dd",
+        "Foundation.General.Warning.50": "7bc2f4be73ef730649189667192048f4eff56dd6",
+        "Foundation.General.Warning.500": "1df76700e44e0394fe02e34ac3f511a43860abb3",
+        "Foundation.General.Warning.800": "93492f6b365f8028e9bfe9035c46a00413a494b0",
+        "Foundation.General.Warning.900": "438b0525ba5b50b07bc8e6c0652b6ec753501ee7",
+        "Foundation.General.Warning.950": "222508d67278f6b4547e47440c235f97d20ecf2b",
+        "Foundation.General.Warning.600": "24e82f5758853279ff5d395987d72bc27d797e7e",
+        "Foundation.General.Intelligence.50": "90c55b5f78126189d05e4bd2f0751483a24a8854",
+        "Foundation.General.Intelligence.300": "d4606e8e7f1da1f4874f4a8e676f3b6e303bffeb",
+        "Foundation.General.Intelligence.600": "20d643e004ed36359e13f4d53898894cd16e689c",
+        "Foundation.General.Intelligence.700": "95ebbf2f487cb3467c202f2b9dd0fd5182232633",
+        "Foundation.General.Intelligence.950": "3cff0c0fd0b84668c3d93dccf41f07a190554a06",
+        "Foundation.General.Intelligence.900": "2cf27ff8f64a9ebc74aab4fb4dc4834b2fe82748",
+        "Foundation.General.Critical.50": "12b5b4399a876abc9c159271e93820e06b8d2381",
+        "Foundation.General.Critical.200": "aa101c784a35483bd042bf9a38f08ed5e34a0a6b",
+        "Foundation.General.Critical.400": "184a1464d8e15e976283b28c449bd0a6c672a883",
+        "Foundation.General.Critical.800": "cd0e2c227efefdead59cc7359a3e45ca73280f41",
+        "Foundation.General.Critical.900": "358e25ce664ca8589e5776c4994d324fb93daf0d",
+        "Foundation.General.Critical.950": "b9bb174353d616c7fecc32898e566b30811496d2",
+        "Foundation.General.Brand.50": "65a682f04d5eb2f50f4c37b7e7bfb25c73fdb44b",
+        "Foundation.General.Brand.100": "54848b17bfbdec9bceded52a3572ab11093e250e",
+        "Foundation.General.Brand.200": "9afc878c88522b5c77e5724393867190746f8981",
+        "Foundation.General.Brand.300": "ba713c1547e1534aafcc4d8ec282b698d1e4c75b",
+        "Foundation.General.Brand.400": "f0e3da5c42ebe0560461152983e8ea5861454c3a",
+        "Foundation.General.Brand.500": "2080fa66e234236d427908996c18f4693d69015f",
+        "Foundation.General.Brand.600": "5cf0a38d0223bf5dad5a64fb6bc92ac3a10eaa21",
+        "Foundation.General.Brand.700": "3f58c93e00f4d995b803a04de886dd1227ec8bb2",
+        "Foundation.General.Brand.800": "c4bb7099b9c693a0f60fde207c35d9fd99f6b05a",
+        "Foundation.General.Brand.900": "40d245af0668a420277d98d905fc8ae0b28e6215",
+        "Foundation.General.Brand.950": "121cfaa5e44fc69e53b5c08137e56353c7e30b12",
+        "Foundation.General.Info.50": "ed3ef914994ef1810fc8efbe3115cd3a25c10511",
+        "Foundation.General.Info.100": "ec9577158fdf0a716514537c97a2e6c399ca1bba",
+        "Foundation.General.Info.200": "f369b17e87ab97a702c341e94b9f5dd8bab8a0ba",
+        "Foundation.General.Info.300": "90ee69f2af72023651694d43c1c2132a9172dc30",
+        "Foundation.General.Info.400": "973b0745ba592a153d4a567cf0f8235c66dff4f2",
+        "Foundation.General.Info.500": "9eba85f4ea1460afacdc44093608d99c71e926b0",
+        "Foundation.General.Info.600": "f1407a980b68004157803b7a93bbd001fac1d5a4",
+        "Foundation.General.Info.700": "49231492d3c3a6f37c2c57c5ce6ee6d16042f12a",
+        "Foundation.General.Info.800": "97ac21221d752e19ba1668fcd75b24685b7bf4e9",
+        "Foundation.General.Info.900": "459b02573c7db770c5a074286641326182aa0abe",
+        "Foundation.General.Info.950": "02ec0870dff03a359b661136c6436fa0fbe0ee10",
+        "Foundation.Data.Categorical.01": "e21db0ece7e04446600fea5946c7c1692482b52d",
+        "Foundation.Data.Categorical.02": "bbcb4147820ae671175007e290405c6e5060671e",
+        "Foundation.Data.Categorical.03": "6fb4094773c1edf2948d64dd5919d1c624090ce8",
+        "Foundation.Data.Categorical.04": "6c466b117af626ec06b059d22d4355a4ec5e4307",
+        "Foundation.Data.Categorical.05": "85dc18ed54d48a79189ffc9cc38db9b592ef4d3a",
+        "Foundation.Data.Categorical.06": "05016d3ee24ee7b78c93189eb4cda58f9f1e5e1e",
+        "Foundation.Data.Categorical.07": "78c15d81543e5a15d8e8e79be7cfc723760a754c",
+        "Foundation.Data.Categorical.08": "a521bac3527fb5b6ed59c2599a1351dc053d0137",
+        "Foundation.Data.Categorical.09": "dc38048507ae7b7a60bd980f68c9c17665723788",
+        "Foundation.Data.Categorical.10": "2ff358f05c0634ec36bccbb1ee4cf589734f67a6",
+        "Foundation.Data.Categorical.11": "da1fd63ea9c99ca9f4e13566ca66271e9641d8bc",
+        "Foundation.Data.Categorical.12": "7a8ca3b3cb5bc12dae7dff814949d58c5ba96ba8",
+        "Foundation.Data.Categorical.13": "4ca13ff6dab41e1e74c8d0293e0d12d77ed91e09",
+        "Foundation.Data.Categorical.14": "d172fe09fe4295859679d52e6dcfc9316d474bd8",
+        "Foundation.Data.Categorical.15": "d9f2be38e9aff31a40ddb81f1422baab0c76429c",
+        "Foundation.Data.Categorical.16": "c67a9b29bc38b302d18b58a0eaa9d72f882a1255",
+        "Foundation.Data.Categorical.17": "d452ad3e3e43f0aa7e18c47e6d99fb890fa1898e",
+        "Foundation.Data.Categorical.18": "69ea748cb2f9265a27012363d11709eb630eab35",
+        "Foundation.Data.Categorical.19": "35ae69bdae65ac26cd26f3a4cbf0bbb7ca3a34b3",
+        "Foundation.Data.Categorical.20": "5ff6d2882f393a54f8154c21c9799708d55e6d8f",
+        "Foundation.Data.Categorical.21": "31163002bc5833ff5d35e1c761c4970f76dc1e4a",
+        "Foundation.Alpha.Neutral.50": "ad31c31a5d9500b5f056b6307e1fc05182b4f2ea",
+        "Foundation.Alpha.Neutral.100": "a868f0596cc614051895477acb1f431fdd7e63ee",
+        "Foundation.Alpha.Neutral.200": "3aac1841a1af0809fa4473543643846c04e17c12",
+        "Foundation.Alpha.Neutral.300": "268304605d49feffcc3cb20b9a3dea8c9b2cf373",
+        "Foundation.Alpha.Neutral.400": "3414319ea8245d848539b95bf0da51be04392e2e",
+        "Foundation.Alpha.Neutral.500": "a2534097ea317c81be8ef57cde2458c7d30a4a41",
+        "Foundation.Alpha.Neutral.600": "7cac171d66b23d68c825ef091d1cea761012f4da",
+        "Foundation.Alpha.Info.50": "9d4c335c45d3be23838a7278fd7af3895aa7e25b",
+        "Foundation.Alpha.Info.100": "f5cc8bf1a2e7c72a381ae9b19de78bed6f85b08e",
+        "Foundation.Alpha.Info.200": "f94f659ca4d38b16e6e8bdf8f0000c758b072726",
+        "Foundation.Alpha.Info.300": "0339f377d67387fc541a903b9d0b193cfde75632",
+        "Foundation.Alpha.Info.400": "5152561209dcee4192c72e1b607c04b2751ebfbb",
+        "Foundation.Alpha.Info.500": "15b936141b4293c527ce8c4ec05154163f5ba205",
+        "Foundation.Alpha.Info.600": "5609909d7d783a8a5de11c8dbd9a736f2b3a76a3",
+        "Foundation.Alpha.Neutral.00": "c91f832c7afa6b47854dcbb4a156944a326185a7",
+        "Foundation.Alpha.Info.700": "407349a45a8330202886dec54410d5b3e3fb0113",
+        "Foundation.Alpha.Neutral.700": "40c8987af053204bf404e42a6801cc5d3b2b237d",
+        "Foundation.General.Neutral.1000": "6a3dbcd7651f730c837a1a18fdbf12bbf062fc30",
+        "Foundation.Alpha.Neutral.800": "3eb0b8529bf2a892a9b9094779afa3f8205030f0",
+        "Foundation.Alpha.Neutral.900": "ebf104959fbadda579fbcecd9dd8662c89ceaf4b",
+        "Foundation.Alpha.Neutral.950": "cdef94a21e3e24cee564d6baaed6c091f1e7fb57",
+        "Foundation.Alpha.Neutral.1000": "402de595cc4748ad69b8c6679c15765acad9c729",
+        "Foundation.Alpha.Neutral.1100": "b00f4b9359cab208348fadfa0ff636310a25c3f0",
+        "Foundation.Alpha.Info.800": "5a50923ed0b3267c5a0c1b159253d6d27f655892",
+        "Foundation.Alpha.Info.900": "dcc760305953aa7f28fea80c76740d8bd0ca6fe4",
+        "Foundation.Alpha.Info.950": "c3006543cde038df6beafa1b3a777e28ecffc341",
+        "Aliases.Background.data-bar": "22f2d589fc6f9347b7f2a3803bc2b2e84f391242",
+        "Aliases.Background.disabled": "7c6f74e3153ee28d586849c1bbfe9c03a57034e1",
+        "Aliases.Background.level-3": "806bb395d5b87592f5f6137c397b01cca794b456",
+        "Aliases.Background.level-2": "95e11ded15775cd493a8d27fa7a26794f2432262",
+        "Aliases.Background.level-1": "b3fda80db1387b60bae44a0f63ddef3715827505",
+        "Aliases.Background.success-emphasis": "268b44882eeb8adab075f6d4a1959684c50775d6",
+        "Aliases.Background.crtitical-emphasis": "20efea5551f204feab1c8037576f35985614fd80",
+        "Aliases.Background.inverse": "ca0057c4c6d563a1bb8c497c89e74117d21c6dcf",
+        "Aliases.Background.overlay": "a5b56186910a8de4b41fb78b76db77cbdd781729",
+        "Aliases.Background.intelligence": "a260b54b87f507a67f7a89c76c059c67f49b8093",
+        "Aliases.Background.critical": "eedfa5f3cad4c3bca79d8dc3524ee8ebdc4d0940",
+        "Aliases.Background.warning-emphasis": "2e9c5045ae0ae4e5e20ce482b2e8e8985d141bc5",
+        "Aliases.Background.info": "c2424bca863dd644a80b6dce3a874241736f7d9d",
+        "Aliases.Background.Info-emphasis": "08f4d802ef04db1867b5165b0bc7c3d24eadaa7c",
+        "Aliases.Background.success": "9da946817101f776eb293cd0e909d6709f7c8291",
+        "Aliases.Background.warning": "718c8ee6389879eeb4b03f9e6818a435f3a9efd3",
+        "Aliases.Background.default": "b0ed35684800c3c73f33c852d71b25ba6bc2603c",
+        "Aliases.Border.brand": "5c4b89eed4a769ebfa0d9af17d8d71b49e08f693",
+        "Aliases.Border.intelligence": "c59f42b4561b377dde83b6d74c9745bc1ca004af",
+        "Aliases.Border.warning": "b10c411cf0f3303a424f22de8219aa1144b26228",
+        "Aliases.Border.success": "0893698c3dec28b745d34ab2fbde35023d06c363",
+        "Aliases.Border.critical-emphasis": "fa2112643159db3b14cc7444510703b445c24699",
+        "Aliases.Border.Info": "ce84e08ca0e49fae61630e2addd9b47031a464b4",
+        "Aliases.Border.emphasis": "56268c681d5cc99f25046b58de06b2d4e77906fa",
+        "Aliases.Border.brand-emphasis": "3a1e830671de53057a9713d0d7b4f1f2e861d5bb",
+        "Aliases.Border.success-emphasis": "fdc2559ee8b63de2a13cbb2cafedf62631e48fec",
+        "Aliases.Border.intelligence-emphasis": "8cf1a280bcd8e277385f2028a21b7b66d8463afb",
+        "Aliases.Border.critical": "13dda57e8f72274e7cdc65320756020be0bd28e6",
+        "Aliases.Border.default": "7c5db452f731c29fb70270b8464f8225b9463adb",
+        "Aliases.Text.brand": "cd7cf7bcd55b83d7969a27d82235b5e6c3e289aa",
+        "Aliases.Text.intelligence": "071a41e52ca4a0fdc87a41fb36c92b98f26c93f4",
+        "Aliases.Text.critical": "a2d29dba28e094ec0b8787554e788b300641284b",
+        "Aliases.Text.on-warning": "ea4b7704667957c7dd05a5e592e9ecb5f9270b25",
+        "Aliases.Text.intelligence-subdued": "016c1ae85565ed58d8abe1f89cc4b830c22e6440",
+        "Aliases.Text.inverse": "6045e66ea3f1b39ab80afff20c92d68cb09ee131",
+        "Aliases.Text.warning": "df9a290a3633422a32a9e8c2e6459e2f80526ecf",
+        "Aliases.Text.placeholder": "c7276744281448c738d16d71ae0beefa2915cdf4",
+        "Aliases.Text.on-success": "b5866f3ba575ab450c10144aed88614698b44bb4",
+        "Aliases.Text.success": "d8721651220aed6436ce38b71fa51fcbdabe86ac",
+        "Aliases.Text.on-brand": "ca7f2a1289ac06028aab37c308c70532e4001ae1",
+        "Aliases.Text.disabled": "07c409f3fed06f4b296eacd29491eaf221e04dcb",
+        "Aliases.Text.on-info": "46f2de894a141929ab86576fafc2aeadbd368a2c",
+        "Aliases.Text.Info": "c69d3e8c2b866706bce82299022c6fc70de83f66",
+        "Aliases.Text.default": "79815fbd57b7f86a341067355dcdc6fb5c2546f0",
+        "Aliases.Text.emphasis": "b7119142325f0ccff5446c534325c9339289541f",
+        "Aliases.Text.on-critical": "0a48e6e2760a8b90a64f1c5ce49768f87d777279",
+        "Aliases.Text.subdued": "053858a5ebac1f1ea85b88171acc07922882044d",
+        "Aliases.Icon.on-success": "ea946aae512deaa96ab5c7de5960a02145e37de1",
+        "Aliases.Icon.on-info": "64ce75b593d53f405d869df3a8d45c0875ab9196",
+        "Aliases.Icon.disabled": "8350adb91ee11fc9225d010b43948102e4fce182",
+        "Aliases.Icon.on-intelligence": "41ecb884fffb8409680a397b6498e338d8158268",
+        "Aliases.Icon.subdued": "923229744be1df89857b27e8e8c82f13861a8f04",
+        "Aliases.Icon.intelligence": "eee0ffc760d2262541c54d9605047cf3bcfb5a2e",
+        "Aliases.Icon.info": "0f90956fd48c55d34eef2094e417cb60236d8cfb",
+        "Aliases.Icon.emphasis": "a6239236435785d484454e35c6c6a388514418ba",
+        "Aliases.Icon.crtitical": "48a8514118bf183a527af04f6b241889a571929f",
+        "Aliases.Icon.on-warning": "b0ab3e4138bd042cc93e26e59e092ed82ffb3588",
+        "Aliases.Icon.success": "6777477980287f81604d9962da9287599d75c91d",
+        "Aliases.Icon.inverse": "83e5b12c7cf9da3e1d313816cca712d544b53023",
+        "Aliases.Icon.on-critical": "77f8b847a1d6c15d3586f614f357285176badd2c",
+        "Aliases.Icon.warning": "351b1cef3fbcd2acfa48cbd4c2a63f9652829c51",
+        "Aliases.Icon.brand": "11f7810c534dc70c0809c2d488ff3a3867c6b7ee",
+        "Aliases.Icon.on-brand": "a901d2414eabc15a5c54bf7e1e02a2ac02badbde",
+        "Aliases.Icon.default": "88a24d8ff63e1c0557b4a08f5b8374353b2a7d1b",
+        "Aliases.Interactive.Background.Primary.active": "a007b378ae7bc4ff60998685f9d2fcec8df3dd64",
+        "Aliases.Interactive.Background.Primary.selected": "6007b07be46caeabb67e9776122fcc9b3979f09f",
+        "Aliases.Interactive.Background.Primary.hover": "424cfefdb971a67e995cb2b71718a9b1073e0420",
+        "Aliases.Interactive.Background.Primary.default": "09f8f1e1a00bf2349f569b6da8e29d656749e43d",
+        "Aliases.Interactive.Background.Secondary.selected": "1e258a11bc803a79d89f5d34cf6c70f0c08fe0e0",
+        "Aliases.Interactive.Background.Secondary.active": "acef1a46db9258a2fbd27cb08adec02868b30019",
+        "Aliases.Interactive.Background.Secondary.hover": "88df470fd8cbeda77ec44d3d8a56bceae4db17ce",
+        "Aliases.Interactive.Background.Secondary.default": "efcf6601f27265e19050e3cd8d9942364286c17f",
+        "Aliases.Interactive.Background.Tertiary.selected": "78da244fdcf4313c07300fd719e98edca6498cc2",
+        "Aliases.Interactive.Background.Tertiary.active": "5805b4d66b99e8aa7fdcf80b6a3d886791d74046",
+        "Aliases.Interactive.Background.Tertiary.hover": "28b92124e447bcd777f1d847a9866d3c90821f26",
+        "Aliases.Interactive.Background.Tertiary.default": "2e45257ca1efbd3003b5b88ef43a5fddf8923039",
+        "Aliases.Interactive.Background.Ghost.active": "9e1f8c85b33e835dd4fb308d8c0b869cdef2baea",
+        "Aliases.Interactive.Background.Ghost.hover": "f6b19fc7bbb15925aa1d287028a93bf58221ea8f",
+        "Aliases.Interactive.Background.Ghost.default": "7051da97f7c07d3618172203e68564717b6e1500",
+        "Aliases.Interactive.Background.Success.active": "2f201eca27fec3ac80c0d26784d8f7b2cdb46496",
+        "Aliases.Interactive.Background.Success.hover": "1889f39edf1f9e504bdc2d625bc8a5c167bab348",
+        "Aliases.Interactive.Background.Success.default": "b5c6ab4ebf16d5ada4b6ddc59f2e792a11a85bd9",
+        "Aliases.Interactive.Background.Warning.hover": "6a8ae71ef4752e8f52e9ae381e74118b571b7052",
+        "Aliases.Interactive.Background.Warning.active": "e3fe35e8b6eb5e0f2027b9c9ea335ab76b701773",
+        "Aliases.Interactive.Background.Warning.default": "4b480649db69337fa8fd71864c7f42b991ae0f6f",
+        "Aliases.Interactive.Background.Critical.hover": "9f9f987a739644b28910302b3048a0a9cb494c77",
+        "Aliases.Interactive.Background.Critical.active": "3521b4d32197fbd751ef0bd873a742723b06c497",
+        "Aliases.Interactive.Background.Critical.default": "17a9209e31d8b8f8236252c5c619fbde7546af2c",
+        "Aliases.Interactive.Border.Secondary.Active": "9059af86fc570c449ec49037a373368c0c7bf3d2",
+        "Aliases.Interactive.Border.Secondary.Hover": "96282df483dca83afe04b4a48781399179140e90",
+        "Aliases.Interactive.Border.Secondary.Default": "dd1acf2e724d441904c5be130d53a16dfe67865a",
+        "Aliases.Interactive.Border.Critical.Default": "8bb216cacd3fd22d27f28d4836d2110969b310bb",
+        "Aliases.Interactive.Border.Critical.Active": "08a3837b856296a6436d36808713dc4c0d4b8a2f",
+        "Aliases.Interactive.Border.Critical.Hover": "c569f81a6621e9ebb66b733aedd4bfa3f42b5921",
+        "Aliases.Interactive.Border.Warning.Default": "09b0ba416eafcaf3d404a7f57bc5cb96b30aab3d",
+        "Aliases.Interactive.Border.Warning.Hover": "3f1b24207800c8a43abf6d3dab5dd0a78579c0bd",
+        "Aliases.Interactive.Border.Warning.Active": "55dc6327df4a01f862c5da6207c4ea6d74cdf8d9",
+        "Aliases.Interactive.Text.Color": "c59ebce90064e71f401f0ca8f91b7ce7b0c94b95",
+        "Aliases.Interactive.Text.Primary.Selected": "251a3e8c870a1b89e3f90f08f06fd40cafa71ec7",
+        "Aliases.Interactive.Text.Primary.Active": "92e46a2976429907d73aaa1988b26493a3705983",
+        "Aliases.Interactive.Text.Primary.Hover": "1fbcf345544f06d4d7263827e0ed602223081903",
+        "Aliases.Interactive.Text.Primary.Default": "6f0d3eecd78cfaddd691a2bb42c198c84dfbf93d",
+        "Aliases.Interactive.Text.Secondary.Selected": "06e9fbf53671f0b981eaaf2e8c9d31d82e97eea6",
+        "Aliases.Interactive.Text.Secondary.Active": "4d4cc1b5fe47fff0ee6e1743694dc0fe34293bb2",
+        "Aliases.Interactive.Text.Secondary.Hover": "fa811a0f46a0f24bb4518ac7359f106b910854a3",
+        "Aliases.Interactive.Text.Secondary.Default": "1f2cabb088371a285835f8cd961b8a64748ddace",
+        "Foundation.Data.Info.800": "6a3c35ca3c8af09c873a33b0c61872771114c890",
+        "Foundation.Data.Info.500": "1071297a4062090d80db711c0f54ece891be9e40",
+        "Foundation.Data.Info.900": "11910b556408a7bbc265e016a68d8f63576bd913",
+        "Foundation.Data.Info.700": "6972e885b1ff56d088b8583fbdfda6368ea18a61",
+        "Foundation.Data.Info.400": "6896ed0d9e97846c6e6a452fd9b45358f7750746",
+        "Foundation.Data.Info.300": "3aac5fe3868c887605c1e448afd3c1f3ef1d6db8",
+        "Foundation.Data.Info.200": "31e946d1a6244149ce0504296e1efe75e26a496c",
+        "Foundation.Data.Info.600": "87778fc79c6e18c2ec673a18e7e52a528a2016dd",
+        "Foundation.Data.Info.50": "4039a426feb149bbb0b99ee02c7eb5907deb3e2e",
+        "Foundation.Data.Info.950": "74a362dd290617a98e1c0f3bf5acdaf51aef26a8",
+        "Foundation.Data.Info.100": "8b49b8c7e1cfd3f9017ce782bafa6548b78e6ef6",
+        "Foundation.Data.Critical.800": "c5f3402c64c690b163fddb23f921153683ce8a1f",
+        "Foundation.Data.Critical.500": "97778f0af8729fe2826a032b10c7eba7a0a7608a",
+        "Foundation.Data.Critical.400": "946d0af383d811b1fc41f4d050e6e5e7cfc4b375",
+        "Foundation.Data.Critical.700": "b6702a291f6d5cfcf85aa0e6083d1bdf8ae544a3",
+        "Foundation.Data.Critical.300": "30ddba277ae61a04dd10a53fb3a4964cdbb6751c",
+        "Foundation.Data.Critical.200": "14fc726b558d0cd61e69f506b8758ad63cdd44c7",
+        "Foundation.Data.Critical.100": "8f94badc68df4bea6bf407773b511ab2def2acd8",
+        "Foundation.Data.Critical.900": "a67c9932acb725a0c53c82e6dd8a8afdcf549419",
+        "Foundation.Data.Critical.950": "13da86c5a595d4ffccf525a1b4d113fb973725fb",
+        "Foundation.Data.Critical.600": "6bcced9dbb21ff7c990bb713a56f44cdf6c6e899",
+        "Foundation.Data.Critical.50": "61b1e9ce5aaf85b15abe8e49910187df7cb1b782",
+        "Foundation.Data.Warning.900": "05ade99c8e4fed5cec9d5a7aef96e1c9445ba42f",
+        "Foundation.Data.Warning.800": "77c424af67a6260a8a380cf8cc8afe1df4d83596",
+        "Foundation.Data.Warning.600": "5870246b1bcc1b2f21d6c0619232acd199487384",
+        "Foundation.Data.Warning.300": "3791b3a3a7b0c8e0ca79018b2d80a4fb41587d87",
+        "Foundation.Data.Warning.500": "3ee3809beb9f3943d8a9df29b070aeb2ddaf5736",
+        "Foundation.Data.Warning.200": "08c4db4e0cbbd7e1a65a3cf61bfc00eeeb3a9a78",
+        "Foundation.Data.Warning.700": "e35843925ec7c87ef6abcc561a84f32c3cf52407",
+        "Foundation.Data.Warning.400": "58009287181232d01b588b48fdb75c50b14b6c41",
+        "Foundation.Data.Warning.100": "8cd3466781e3f852e900bb4700c9db17f97b4f5e",
+        "Foundation.Data.Warning.950": "e2e75789dffb4b7297e361f792fe0cfe2ff497b7",
+        "Foundation.Data.Warning.50": "f25992b5a42975508807b7ac5e424e13ae94fe74",
+        "Foundation.Data.Success.900": "71376406a73e415982aade5040f3b1385a581074",
+        "Foundation.Data.Success.600": "00aa2f847489dfe364c0487fa42c0b91ec802525",
+        "Foundation.Data.Success.500": "1cba655aa357beb96c25f76d77b19e72879889f5",
+        "Foundation.Data.Success.950": "a6a865e4d9f494d8ce1e7db434110e6e6692163c",
+        "Foundation.Data.Success.800": "cd34382deb639c6d1e8890168ab37c0ec684f8ab",
+        "Foundation.Data.Success.700": "fddf3961c1608ad77c31451bb64b71a0f8ab3d83",
+        "Foundation.Data.Success.400": "f0ffd76d84eb5ab9841689a39651c4bcc3a6b37e",
+        "Foundation.Data.Success.50": "7cac35b81c1f202c1329f565c4357d3970dc55d0",
+        "Foundation.Data.Success.100": "7535f71b1d69c0d7ed192838cb1d1548479bc23c",
+        "Foundation.Data.Success.300": "0a5986dc10cc0cec6e3b64633737a6dc3fa1e1bd",
+        "Foundation.Data.Success.200": "9e7b7a5d6a5ff7f98baa8412fd7f2e30c46066e4",
+        "Foundation.Data.Intelligence.800": "01ce38202ec48ccf267f233c08ee661169b7a573",
+        "Foundation.Data.Intelligence.600": "baf3f82e3db99aad89729acaf9ff78d9599d3d1f",
+        "Foundation.Data.Intelligence.900": "8fa73d1ce31b08465fa8847bff39f79323996440",
+        "Foundation.Data.Intelligence.700": "24a31962904864a90624a67fb51f4e32a1cd99b2",
+        "Foundation.Data.Intelligence.500": "c1928483d9f96772be4e4b40bf79a81fb3cc1afe",
+        "Foundation.Data.Intelligence.950": "1a2a84a7badf19e8f2441eecdf5eba4718408af8",
+        "Foundation.Data.Intelligence.300": "8ad9fc525de90048d6f440159218b9c27d7f3c13",
+        "Foundation.Data.Intelligence.200": "ed55bbe9133a6e431f7b01a3ef0c292f7c31bfad",
+        "Foundation.Data.Intelligence.400": "2beb309e195572262617f0c9d707582a257ab438",
+        "Foundation.Data.Intelligence.100": "48fdbe77a966201a5a4160f87c5a30d275895d0a",
+        "Foundation.Data.Intelligence.50": "a26e827dc74d2c7c00479c4cee9150f4cbbba0fa",
+        "Foundation.Data.Neutral.800": "10ccf6fd3c9fe4f8d69caf7cd020af94d9975117",
+        "Foundation.Data.Neutral.700": "faaba4141d6c939d970a9bd6cb378c2447514dc9",
+        "Foundation.Data.Neutral.600": "9b9220413a80685a9b503338a615a552d996e528",
+        "Foundation.Data.Neutral.900": "821b51177160974f3c98d204396fcdd69b9d7d7f",
+        "Foundation.Data.Neutral.500": "85123e984cabde5d6f057a6d50807a70cee03fd9",
+        "Foundation.Data.Neutral.300": "88d1c101453ad90689122eeef8525ddd0fcd9dc7",
+        "Foundation.Data.Neutral.950": "b84342463babc8210a4bdf9993c537bd77b353bf",
+        "Foundation.Data.Neutral.400": "8b4f62632739d06bc3543efe88e7e67b0cde1ebf",
+        "Foundation.Data.Neutral.200": "ff225ab77a6b852e14de1e9026b2a4dd827da826",
+        "Foundation.Data.Neutral.100": "6da7d70bdb727b0620a5fab1cc0d5ff2fc3f4937",
+        "Foundation.Data.Neutral.50": "ae51e20618eae815eb662dfb15989f54cae87c97",
+        "Foundation.Data.Neutral.00": "144a89eca12107f1d8dcbc2f98fb215d0157c733",
+        "Aliases.Chart.Crtitical.Background.Low": "bd49395a7b226718d484141ba0edd4a5744f5cca",
+        "Aliases.Chart.Crtitical.Background.Low-Emphasis": "2b0db94dd1f41b40ac5c8fb69d9461172db352cf",
+        "Aliases.Chart.Crtitical.Background.Normal": "97e9440de53a320c382f8d131f57828f550588fe",
+        "Aliases.Chart.Crtitical.Background.Normal-Emphasis": "cb5671dc94db49f22464d0f0d87d9e8a86b44564",
+        "Aliases.Chart.Crtitical.Background.High": "fbe8155ccd2d125cf4fab5e1a0918652322a20a4",
+        "Aliases.Chart.Crtitical.Background.High-Emphasis": "bd7b3d3f14540236fbba8cc15569072d95e7b5d8",
+        "Aliases.Chart.Success.Background.Low": "fd8be5014ae1d118309cd3331ff15e56be3649d3",
+        "Aliases.Chart.Success.Background.Low-Emphasis": "a770b1e3a03847aa0cf98e7f16ea338d52354ddf",
+        "Aliases.Chart.Success.Background.Normal": "cfa56e542cc1fa26a5d1dd1f101ad443c6f7a5a8",
+        "Aliases.Chart.Success.Background.Normal-Emphasis": "d945960fd7348d49beea7e8545e528caabfa6565",
+        "Aliases.Chart.Success.Background.High": "f29c3d3f834f1db8f6e65cf5da3351f2bc6ed6c1",
+        "Aliases.Chart.Success.Background.High-Emphasis": "c1658194be505d91a454e65f2d92059399d99c02",
+        "Aliases.Chart.Warning.Background.Low": "937934e74bcae3777f95626b0df8cd1276018241",
+        "Aliases.Chart.Warning.Background.Low-Emphasis": "bace41e9ca92203460131ad75d848890ad15ad55",
+        "Aliases.Chart.Warning.Background.Normal": "82293481ae4fb66767af0d2eb5d739b68fecb657",
+        "Aliases.Chart.Warning.Background.Normal-Emphasis": "e6fd92d3e23868f78d1ee259c44f58db8da36568",
+        "Aliases.Chart.Warning.Background.High": "f3868d0503f02a304845004a18a72a6875012c3b",
+        "Aliases.Chart.Warning.Background.High-Emphasis": "2fb84ec41ea3b462eaee37bca793cf8ee1dd09b5",
+        "Aliases.Chart.Neutral.Background.Low": "a9b9a9d666cd101b38d885eeb3dc5900489f5f02",
+        "Aliases.Chart.Neutral.Background.Low-Emphasis": "9a23e48c3f0c6c590ae342249b59b03227aa4891",
+        "Aliases.Chart.Neutral.Background.Normal": "0cc82f93165fe31f220cf4864319a8132227f7d8",
+        "Aliases.Chart.Neutral.Background.Normal-Emphasis": "cfb326c671420b928d0b942a192cabdcaaa4c6e8",
+        "Aliases.Chart.Neutral.Background.High": "a55ac5a51228b5dcb4c6da222f212b8b86094889",
+        "Aliases.Chart.Neutral.Background.High-Emphasis": "943b4b18c5388e765a258084d07c6e891860b1aa",
+        "Aliases.Chart.Primary.Background.Low": "e9601fbdf2d75a30b2c5fd1455c353e00556e41d",
+        "Aliases.Chart.Primary.Background.Low-Emphasis": "580fcb8b0990cba6b67bff9eae393b5a43f1e51a",
+        "Aliases.Chart.Primary.Background.Normal": "51b2bf6e61239f9906a1a35872dd16d58d1ed3b1",
+        "Aliases.Chart.Primary.Background.Normal-Emphasis": "42034d5b5251ea727d7c8bb478ece773971945c7",
+        "Aliases.Chart.Primary.Background.High": "47d3ffcc263577d54fd84508d2075a115333ea66",
+        "Aliases.Chart.Primary.Background.High-Emphasis": "2501b60b60cb13772fdfaa139b6a2aeb679ec305",
+        "Aliases.Chart.Primary.Fill.Low": "609b790f96c8237985437e9591f1c045b203d740",
+        "Aliases.Chart.Primary.Fill.Normal": "7cd4812427c6e30fbba19bbf321f44377ddb800f",
+        "Aliases.Chart.Primary.Fill.High": "3c97661fd72bea674b21325724ac7bb3650d338e",
+        "Aliases.Chart.Neutral.Fill.Low": "b0fb4f6d868497ed8434c219c84257b7c5cecec5",
+        "Aliases.Chart.Neutral.Fill.Normal": "f3c33e66aca8e6ca20da36b563ec47ac9d111e86",
+        "Aliases.Chart.Neutral.Fill.High": "cf7936edec5cc0bfd3a35226f969739be04da358",
+        "Aliases.Chart.Crtitical.Fill.Normal": "5bcdfb19fdde03f7318ee982ee808559936db577",
+        "Aliases.Chart.Crtitical.Fill.Low": "626cd05609d94c81bcf476afdacc6bce64d694b6",
+        "Aliases.Chart.Crtitical.Fill.High": "ef82ab0b6a69d816b2c2d4e2e36579a86b0ee537",
+        "Aliases.Chart.Success.Fill.Normal": "df884172c5e5c92fe3044cd8845879535985efcd",
+        "Aliases.Chart.Success.Fill.Low": "7ac2579cd768381aee8084ec51f2e886f8d17d09",
+        "Aliases.Chart.Success.Fill.High": "626f75ad8da100b20f4632eaaaaf72ea3ac7f731",
+        "Aliases.Chart.Warning.Fill.Normal": "0b8de7553b2efce8a638ee6b1e1d578870481c0e",
+        "Aliases.Chart.Warning.Fill.Low": "7355428ece80ba67af6fc8f2c37845443ccc0fe3",
+        "Aliases.Chart.Warning.Fill.High": "61aba5d3a9fd20c55495820c871e07482f796bcc"
+      },
+      "$figmaModeId": "2055:0",
+      "$figmaCollectionId": "VariableCollectionId:584:79852"
+    },
+    {
+      "id": "1. colors-dark mode",
+      "name": "Dark mode",
+      "group": "1. Colors",
+      "selectedTokenSets": {
+        "1. Colors/Dark mode": "enabled"
+      },
+      "$figmaStyleReferences": {},
+      "$figmaVariableReferences": {
+        "Foundation.General.Neutral.00": "a7b13523722518e6f0d5adfdbb5c3f83c929105d",
+        "Foundation.General.Neutral.50": "5e6a4a72f67f160abbcd0339c578faa84036d460",
+        "Foundation.General.Neutral.100": "7924c3b78d4f2540cd91533d16f69548e96c59cc",
+        "Foundation.General.Neutral.200": "6c44293619b3bd9a6240a74d96adfdb7959d6590",
+        "Foundation.General.Neutral.400": "189786919804c3f5ea7933af04101dbd02fc4051",
+        "Foundation.General.Neutral.300": "0184ef92176f445038ab1d290191abee977c6cdc",
+        "Foundation.General.Neutral.500": "107227d4df84bc956d1553ea9e25abe8085e749e",
+        "Foundation.General.Neutral.600": "b6c7123690c0253af62ac8e89d5ab0e31ba8871e",
+        "Foundation.General.Neutral.700": "652ffca842ac1d795fef4807b741462a9cfaf691",
+        "Foundation.General.Neutral.800": "98200a9340f272b39ecf33c7a7f57a845decfe8d",
+        "Foundation.General.Neutral.900": "350af309cf2a2b3358f4b72f1c194f09df9217ee",
+        "Foundation.General.Success.100": "430228e78fb11795816acc79173b7f6edd1b0592",
+        "Foundation.General.Success.300": "8c81e610bb791a0c8de33343fceefaf9b42392eb",
+        "Foundation.General.Success.500": "dcfe5bd5c5c7de7305f3b9970dcfc16990a4ae2b",
+        "Foundation.General.Success.600": "9d60df9e573af571d49e65b320419f5b17e8bba1",
+        "Foundation.General.Success.700": "be214519bec5888786c7146b3dcb650f329e5e88",
+        "Foundation.General.Warning.100": "a8c9ab1f2fe91fb4c3a7fe2540cea13b3d135b63",
+        "Foundation.General.Critical.100": "1509c76980878f99112f7f46acc1bca977b8a5ed",
+        "Foundation.General.Intelligence.100": "de805ceba4773090cb49e9dcdf7db4f61cf10ac9",
+        "Foundation.General.Warning.200": "77fee83f77e5a25e1e1ebf571b866ff9a8f532ba",
+        "Foundation.General.Warning.300": "c82c1539597dc0f1b992a2edb85b22da2b83b064",
+        "Foundation.General.Warning.400": "9a705df1984992ab7d331d1b95b6537bf0ae8610",
+        "Foundation.General.Warning.700": "ac044cb26caf69cebaeeac2166973cdf25e97535",
+        "Foundation.General.Critical.300": "6d578555ec6455f5c434d1c5d6d0449f5f3774af",
+        "Foundation.General.Critical.500": "8304c662b924eda195011696bc0c44ab10f96c5d",
+        "Foundation.General.Critical.600": "eb5fe9ffa62a6ddad3dcb94b669e1aa93dcef19d",
+        "Foundation.General.Critical.700": "65eeeccc639d18c6602d2548ecfe466cd5f487c0",
+        "Foundation.General.Intelligence.200": "06ec911ad4fb5ab8baa227ea766cae2638793d8c",
+        "Foundation.General.Intelligence.400": "73bd6c1bdc82041aaaa98e5dc704244d67d5a005",
+        "Foundation.General.Intelligence.500": "918e7513b74e88bb6aec5e2e1514e91548d8c62e",
+        "Foundation.General.Intelligence.800": "646bdf7b5873165d806918c9db08e61b5c35acde",
+        "Foundation.General.Neutral.950": "a8c90c237833092e53d80b24f6f9df8d263e2851",
+        "Foundation.General.Success.50": "ad30a3087c71f812892591bbdc1d59c2e40d5faf",
+        "Foundation.General.Success.200": "c3861fb999e2446a1405f91fcb0e888efd0bf062",
+        "Foundation.General.Success.400": "584a06bd9cd12390f0aa4e7f853fa6f36a9fa200",
+        "Foundation.General.Success.800": "257b31efdebd0005d4a506729b5aeebb60be1b94",
+        "Foundation.General.Success.900": "f3936b161d74ebebb052b4c7a2f090ebadef9fc5",
+        "Foundation.General.Success.950": "6702202033d5598ce2abc8d433a78ce3e85997dd",
+        "Foundation.General.Warning.50": "7bc2f4be73ef730649189667192048f4eff56dd6",
+        "Foundation.General.Warning.500": "1df76700e44e0394fe02e34ac3f511a43860abb3",
+        "Foundation.General.Warning.800": "93492f6b365f8028e9bfe9035c46a00413a494b0",
+        "Foundation.General.Warning.900": "438b0525ba5b50b07bc8e6c0652b6ec753501ee7",
+        "Foundation.General.Warning.950": "222508d67278f6b4547e47440c235f97d20ecf2b",
+        "Foundation.General.Warning.600": "24e82f5758853279ff5d395987d72bc27d797e7e",
+        "Foundation.General.Intelligence.50": "90c55b5f78126189d05e4bd2f0751483a24a8854",
+        "Foundation.General.Intelligence.300": "d4606e8e7f1da1f4874f4a8e676f3b6e303bffeb",
+        "Foundation.General.Intelligence.600": "20d643e004ed36359e13f4d53898894cd16e689c",
+        "Foundation.General.Intelligence.700": "95ebbf2f487cb3467c202f2b9dd0fd5182232633",
+        "Foundation.General.Intelligence.950": "3cff0c0fd0b84668c3d93dccf41f07a190554a06",
+        "Foundation.General.Intelligence.900": "2cf27ff8f64a9ebc74aab4fb4dc4834b2fe82748",
+        "Foundation.General.Critical.50": "12b5b4399a876abc9c159271e93820e06b8d2381",
+        "Foundation.General.Critical.200": "aa101c784a35483bd042bf9a38f08ed5e34a0a6b",
+        "Foundation.General.Critical.400": "184a1464d8e15e976283b28c449bd0a6c672a883",
+        "Foundation.General.Critical.800": "cd0e2c227efefdead59cc7359a3e45ca73280f41",
+        "Foundation.General.Critical.900": "358e25ce664ca8589e5776c4994d324fb93daf0d",
+        "Foundation.General.Critical.950": "b9bb174353d616c7fecc32898e566b30811496d2",
+        "Foundation.General.Brand.50": "65a682f04d5eb2f50f4c37b7e7bfb25c73fdb44b",
+        "Foundation.General.Brand.100": "54848b17bfbdec9bceded52a3572ab11093e250e",
+        "Foundation.General.Brand.200": "9afc878c88522b5c77e5724393867190746f8981",
+        "Foundation.General.Brand.300": "ba713c1547e1534aafcc4d8ec282b698d1e4c75b",
+        "Foundation.General.Brand.400": "f0e3da5c42ebe0560461152983e8ea5861454c3a",
+        "Foundation.General.Brand.500": "2080fa66e234236d427908996c18f4693d69015f",
+        "Foundation.General.Brand.600": "5cf0a38d0223bf5dad5a64fb6bc92ac3a10eaa21",
+        "Foundation.General.Brand.700": "3f58c93e00f4d995b803a04de886dd1227ec8bb2",
+        "Foundation.General.Brand.800": "c4bb7099b9c693a0f60fde207c35d9fd99f6b05a",
+        "Foundation.General.Brand.900": "40d245af0668a420277d98d905fc8ae0b28e6215",
+        "Foundation.General.Brand.950": "121cfaa5e44fc69e53b5c08137e56353c7e30b12",
+        "Foundation.General.Info.50": "ed3ef914994ef1810fc8efbe3115cd3a25c10511",
+        "Foundation.General.Info.100": "ec9577158fdf0a716514537c97a2e6c399ca1bba",
+        "Foundation.General.Info.200": "f369b17e87ab97a702c341e94b9f5dd8bab8a0ba",
+        "Foundation.General.Info.300": "90ee69f2af72023651694d43c1c2132a9172dc30",
+        "Foundation.General.Info.400": "973b0745ba592a153d4a567cf0f8235c66dff4f2",
+        "Foundation.General.Info.500": "9eba85f4ea1460afacdc44093608d99c71e926b0",
+        "Foundation.General.Info.600": "f1407a980b68004157803b7a93bbd001fac1d5a4",
+        "Foundation.General.Info.700": "49231492d3c3a6f37c2c57c5ce6ee6d16042f12a",
+        "Foundation.General.Info.800": "97ac21221d752e19ba1668fcd75b24685b7bf4e9",
+        "Foundation.General.Info.900": "459b02573c7db770c5a074286641326182aa0abe",
+        "Foundation.General.Info.950": "02ec0870dff03a359b661136c6436fa0fbe0ee10",
+        "Foundation.Data.Categorical.01": "e21db0ece7e04446600fea5946c7c1692482b52d",
+        "Foundation.Data.Categorical.02": "bbcb4147820ae671175007e290405c6e5060671e",
+        "Foundation.Data.Categorical.03": "6fb4094773c1edf2948d64dd5919d1c624090ce8",
+        "Foundation.Data.Categorical.04": "6c466b117af626ec06b059d22d4355a4ec5e4307",
+        "Foundation.Data.Categorical.05": "85dc18ed54d48a79189ffc9cc38db9b592ef4d3a",
+        "Foundation.Data.Categorical.06": "05016d3ee24ee7b78c93189eb4cda58f9f1e5e1e",
+        "Foundation.Data.Categorical.07": "78c15d81543e5a15d8e8e79be7cfc723760a754c",
+        "Foundation.Data.Categorical.08": "a521bac3527fb5b6ed59c2599a1351dc053d0137",
+        "Foundation.Data.Categorical.09": "dc38048507ae7b7a60bd980f68c9c17665723788",
+        "Foundation.Data.Categorical.10": "2ff358f05c0634ec36bccbb1ee4cf589734f67a6",
+        "Foundation.Data.Categorical.11": "da1fd63ea9c99ca9f4e13566ca66271e9641d8bc",
+        "Foundation.Data.Categorical.12": "7a8ca3b3cb5bc12dae7dff814949d58c5ba96ba8",
+        "Foundation.Data.Categorical.13": "4ca13ff6dab41e1e74c8d0293e0d12d77ed91e09",
+        "Foundation.Data.Categorical.14": "d172fe09fe4295859679d52e6dcfc9316d474bd8",
+        "Foundation.Data.Categorical.15": "d9f2be38e9aff31a40ddb81f1422baab0c76429c",
+        "Foundation.Data.Categorical.16": "c67a9b29bc38b302d18b58a0eaa9d72f882a1255",
+        "Foundation.Data.Categorical.17": "d452ad3e3e43f0aa7e18c47e6d99fb890fa1898e",
+        "Foundation.Data.Categorical.18": "69ea748cb2f9265a27012363d11709eb630eab35",
+        "Foundation.Data.Categorical.19": "35ae69bdae65ac26cd26f3a4cbf0bbb7ca3a34b3",
+        "Foundation.Data.Categorical.20": "5ff6d2882f393a54f8154c21c9799708d55e6d8f",
+        "Foundation.Data.Categorical.21": "31163002bc5833ff5d35e1c761c4970f76dc1e4a",
+        "Foundation.Alpha.Neutral.50": "ad31c31a5d9500b5f056b6307e1fc05182b4f2ea",
+        "Foundation.Alpha.Neutral.100": "a868f0596cc614051895477acb1f431fdd7e63ee",
+        "Foundation.Alpha.Neutral.200": "3aac1841a1af0809fa4473543643846c04e17c12",
+        "Foundation.Alpha.Neutral.300": "268304605d49feffcc3cb20b9a3dea8c9b2cf373",
+        "Foundation.Alpha.Neutral.400": "3414319ea8245d848539b95bf0da51be04392e2e",
+        "Foundation.Alpha.Neutral.500": "a2534097ea317c81be8ef57cde2458c7d30a4a41",
+        "Foundation.Alpha.Neutral.600": "7cac171d66b23d68c825ef091d1cea761012f4da",
+        "Foundation.Alpha.Info.50": "9d4c335c45d3be23838a7278fd7af3895aa7e25b",
+        "Foundation.Alpha.Info.100": "f5cc8bf1a2e7c72a381ae9b19de78bed6f85b08e",
+        "Foundation.Alpha.Info.200": "f94f659ca4d38b16e6e8bdf8f0000c758b072726",
+        "Foundation.Alpha.Info.300": "0339f377d67387fc541a903b9d0b193cfde75632",
+        "Foundation.Alpha.Info.400": "5152561209dcee4192c72e1b607c04b2751ebfbb",
+        "Foundation.Alpha.Info.500": "15b936141b4293c527ce8c4ec05154163f5ba205",
+        "Foundation.Alpha.Info.600": "5609909d7d783a8a5de11c8dbd9a736f2b3a76a3",
+        "Foundation.Alpha.Neutral.00": "c91f832c7afa6b47854dcbb4a156944a326185a7",
+        "Foundation.Alpha.Info.700": "407349a45a8330202886dec54410d5b3e3fb0113",
+        "Foundation.Alpha.Neutral.700": "40c8987af053204bf404e42a6801cc5d3b2b237d",
+        "Foundation.General.Neutral.1000": "6a3dbcd7651f730c837a1a18fdbf12bbf062fc30",
+        "Foundation.Alpha.Neutral.800": "3eb0b8529bf2a892a9b9094779afa3f8205030f0",
+        "Foundation.Alpha.Neutral.900": "ebf104959fbadda579fbcecd9dd8662c89ceaf4b",
+        "Foundation.Alpha.Neutral.950": "cdef94a21e3e24cee564d6baaed6c091f1e7fb57",
+        "Foundation.Alpha.Neutral.1000": "402de595cc4748ad69b8c6679c15765acad9c729",
+        "Foundation.Alpha.Neutral.1100": "b00f4b9359cab208348fadfa0ff636310a25c3f0",
+        "Foundation.Alpha.Info.800": "5a50923ed0b3267c5a0c1b159253d6d27f655892",
+        "Foundation.Alpha.Info.900": "dcc760305953aa7f28fea80c76740d8bd0ca6fe4",
+        "Foundation.Alpha.Info.950": "c3006543cde038df6beafa1b3a777e28ecffc341",
+        "Aliases.Background.data-bar": "22f2d589fc6f9347b7f2a3803bc2b2e84f391242",
+        "Aliases.Background.disabled": "7c6f74e3153ee28d586849c1bbfe9c03a57034e1",
+        "Aliases.Background.level-3": "806bb395d5b87592f5f6137c397b01cca794b456",
+        "Aliases.Background.level-2": "95e11ded15775cd493a8d27fa7a26794f2432262",
+        "Aliases.Background.level-1": "b3fda80db1387b60bae44a0f63ddef3715827505",
+        "Aliases.Background.success-emphasis": "268b44882eeb8adab075f6d4a1959684c50775d6",
+        "Aliases.Background.crtitical-emphasis": "20efea5551f204feab1c8037576f35985614fd80",
+        "Aliases.Background.inverse": "ca0057c4c6d563a1bb8c497c89e74117d21c6dcf",
+        "Aliases.Background.overlay": "a5b56186910a8de4b41fb78b76db77cbdd781729",
+        "Aliases.Background.intelligence": "a260b54b87f507a67f7a89c76c059c67f49b8093",
+        "Aliases.Background.critical": "eedfa5f3cad4c3bca79d8dc3524ee8ebdc4d0940",
+        "Aliases.Background.warning-emphasis": "2e9c5045ae0ae4e5e20ce482b2e8e8985d141bc5",
+        "Aliases.Background.info": "c2424bca863dd644a80b6dce3a874241736f7d9d",
+        "Aliases.Background.Info-emphasis": "08f4d802ef04db1867b5165b0bc7c3d24eadaa7c",
+        "Aliases.Background.success": "9da946817101f776eb293cd0e909d6709f7c8291",
+        "Aliases.Background.warning": "718c8ee6389879eeb4b03f9e6818a435f3a9efd3",
+        "Aliases.Background.default": "b0ed35684800c3c73f33c852d71b25ba6bc2603c",
+        "Aliases.Border.brand": "5c4b89eed4a769ebfa0d9af17d8d71b49e08f693",
+        "Aliases.Border.intelligence": "c59f42b4561b377dde83b6d74c9745bc1ca004af",
+        "Aliases.Border.warning": "b10c411cf0f3303a424f22de8219aa1144b26228",
+        "Aliases.Border.success": "0893698c3dec28b745d34ab2fbde35023d06c363",
+        "Aliases.Border.critical-emphasis": "fa2112643159db3b14cc7444510703b445c24699",
+        "Aliases.Border.Info": "ce84e08ca0e49fae61630e2addd9b47031a464b4",
+        "Aliases.Border.emphasis": "56268c681d5cc99f25046b58de06b2d4e77906fa",
+        "Aliases.Border.brand-emphasis": "3a1e830671de53057a9713d0d7b4f1f2e861d5bb",
+        "Aliases.Border.success-emphasis": "fdc2559ee8b63de2a13cbb2cafedf62631e48fec",
+        "Aliases.Border.intelligence-emphasis": "8cf1a280bcd8e277385f2028a21b7b66d8463afb",
+        "Aliases.Border.critical": "13dda57e8f72274e7cdc65320756020be0bd28e6",
+        "Aliases.Border.default": "7c5db452f731c29fb70270b8464f8225b9463adb",
+        "Aliases.Text.brand": "cd7cf7bcd55b83d7969a27d82235b5e6c3e289aa",
+        "Aliases.Text.intelligence": "071a41e52ca4a0fdc87a41fb36c92b98f26c93f4",
+        "Aliases.Text.critical": "a2d29dba28e094ec0b8787554e788b300641284b",
+        "Aliases.Text.on-warning": "ea4b7704667957c7dd05a5e592e9ecb5f9270b25",
+        "Aliases.Text.intelligence-subdued": "016c1ae85565ed58d8abe1f89cc4b830c22e6440",
+        "Aliases.Text.inverse": "6045e66ea3f1b39ab80afff20c92d68cb09ee131",
+        "Aliases.Text.warning": "df9a290a3633422a32a9e8c2e6459e2f80526ecf",
+        "Aliases.Text.placeholder": "c7276744281448c738d16d71ae0beefa2915cdf4",
+        "Aliases.Text.on-success": "b5866f3ba575ab450c10144aed88614698b44bb4",
+        "Aliases.Text.success": "d8721651220aed6436ce38b71fa51fcbdabe86ac",
+        "Aliases.Text.on-brand": "ca7f2a1289ac06028aab37c308c70532e4001ae1",
+        "Aliases.Text.disabled": "07c409f3fed06f4b296eacd29491eaf221e04dcb",
+        "Aliases.Text.on-info": "46f2de894a141929ab86576fafc2aeadbd368a2c",
+        "Aliases.Text.Info": "c69d3e8c2b866706bce82299022c6fc70de83f66",
+        "Aliases.Text.default": "79815fbd57b7f86a341067355dcdc6fb5c2546f0",
+        "Aliases.Text.emphasis": "b7119142325f0ccff5446c534325c9339289541f",
+        "Aliases.Text.on-critical": "0a48e6e2760a8b90a64f1c5ce49768f87d777279",
+        "Aliases.Text.subdued": "053858a5ebac1f1ea85b88171acc07922882044d",
+        "Aliases.Icon.on-success": "ea946aae512deaa96ab5c7de5960a02145e37de1",
+        "Aliases.Icon.on-info": "64ce75b593d53f405d869df3a8d45c0875ab9196",
+        "Aliases.Icon.disabled": "8350adb91ee11fc9225d010b43948102e4fce182",
+        "Aliases.Icon.on-intelligence": "41ecb884fffb8409680a397b6498e338d8158268",
+        "Aliases.Icon.subdued": "923229744be1df89857b27e8e8c82f13861a8f04",
+        "Aliases.Icon.intelligence": "eee0ffc760d2262541c54d9605047cf3bcfb5a2e",
+        "Aliases.Icon.info": "0f90956fd48c55d34eef2094e417cb60236d8cfb",
+        "Aliases.Icon.emphasis": "a6239236435785d484454e35c6c6a388514418ba",
+        "Aliases.Icon.crtitical": "48a8514118bf183a527af04f6b241889a571929f",
+        "Aliases.Icon.on-warning": "b0ab3e4138bd042cc93e26e59e092ed82ffb3588",
+        "Aliases.Icon.success": "6777477980287f81604d9962da9287599d75c91d",
+        "Aliases.Icon.inverse": "83e5b12c7cf9da3e1d313816cca712d544b53023",
+        "Aliases.Icon.on-critical": "77f8b847a1d6c15d3586f614f357285176badd2c",
+        "Aliases.Icon.warning": "351b1cef3fbcd2acfa48cbd4c2a63f9652829c51",
+        "Aliases.Icon.brand": "11f7810c534dc70c0809c2d488ff3a3867c6b7ee",
+        "Aliases.Icon.on-brand": "a901d2414eabc15a5c54bf7e1e02a2ac02badbde",
+        "Aliases.Icon.default": "88a24d8ff63e1c0557b4a08f5b8374353b2a7d1b",
+        "Aliases.Interactive.Background.Primary.active": "a007b378ae7bc4ff60998685f9d2fcec8df3dd64",
+        "Aliases.Interactive.Background.Primary.selected": "6007b07be46caeabb67e9776122fcc9b3979f09f",
+        "Aliases.Interactive.Background.Primary.hover": "424cfefdb971a67e995cb2b71718a9b1073e0420",
+        "Aliases.Interactive.Background.Primary.default": "09f8f1e1a00bf2349f569b6da8e29d656749e43d",
+        "Aliases.Interactive.Background.Secondary.selected": "1e258a11bc803a79d89f5d34cf6c70f0c08fe0e0",
+        "Aliases.Interactive.Background.Secondary.active": "acef1a46db9258a2fbd27cb08adec02868b30019",
+        "Aliases.Interactive.Background.Secondary.hover": "88df470fd8cbeda77ec44d3d8a56bceae4db17ce",
+        "Aliases.Interactive.Background.Secondary.default": "efcf6601f27265e19050e3cd8d9942364286c17f",
+        "Aliases.Interactive.Background.Tertiary.selected": "78da244fdcf4313c07300fd719e98edca6498cc2",
+        "Aliases.Interactive.Background.Tertiary.active": "5805b4d66b99e8aa7fdcf80b6a3d886791d74046",
+        "Aliases.Interactive.Background.Tertiary.hover": "28b92124e447bcd777f1d847a9866d3c90821f26",
+        "Aliases.Interactive.Background.Tertiary.default": "2e45257ca1efbd3003b5b88ef43a5fddf8923039",
+        "Aliases.Interactive.Background.Ghost.active": "9e1f8c85b33e835dd4fb308d8c0b869cdef2baea",
+        "Aliases.Interactive.Background.Ghost.hover": "f6b19fc7bbb15925aa1d287028a93bf58221ea8f",
+        "Aliases.Interactive.Background.Ghost.default": "7051da97f7c07d3618172203e68564717b6e1500",
+        "Aliases.Interactive.Background.Success.active": "2f201eca27fec3ac80c0d26784d8f7b2cdb46496",
+        "Aliases.Interactive.Background.Success.hover": "1889f39edf1f9e504bdc2d625bc8a5c167bab348",
+        "Aliases.Interactive.Background.Success.default": "b5c6ab4ebf16d5ada4b6ddc59f2e792a11a85bd9",
+        "Aliases.Interactive.Background.Warning.hover": "6a8ae71ef4752e8f52e9ae381e74118b571b7052",
+        "Aliases.Interactive.Background.Warning.active": "e3fe35e8b6eb5e0f2027b9c9ea335ab76b701773",
+        "Aliases.Interactive.Background.Warning.default": "4b480649db69337fa8fd71864c7f42b991ae0f6f",
+        "Aliases.Interactive.Background.Critical.hover": "9f9f987a739644b28910302b3048a0a9cb494c77",
+        "Aliases.Interactive.Background.Critical.active": "3521b4d32197fbd751ef0bd873a742723b06c497",
+        "Aliases.Interactive.Background.Critical.default": "17a9209e31d8b8f8236252c5c619fbde7546af2c",
+        "Aliases.Interactive.Border.Secondary.Active": "9059af86fc570c449ec49037a373368c0c7bf3d2",
+        "Aliases.Interactive.Border.Secondary.Hover": "96282df483dca83afe04b4a48781399179140e90",
+        "Aliases.Interactive.Border.Secondary.Default": "dd1acf2e724d441904c5be130d53a16dfe67865a",
+        "Aliases.Interactive.Border.Critical.Default": "8bb216cacd3fd22d27f28d4836d2110969b310bb",
+        "Aliases.Interactive.Border.Critical.Active": "08a3837b856296a6436d36808713dc4c0d4b8a2f",
+        "Aliases.Interactive.Border.Critical.Hover": "c569f81a6621e9ebb66b733aedd4bfa3f42b5921",
+        "Aliases.Interactive.Border.Warning.Default": "09b0ba416eafcaf3d404a7f57bc5cb96b30aab3d",
+        "Aliases.Interactive.Border.Warning.Hover": "3f1b24207800c8a43abf6d3dab5dd0a78579c0bd",
+        "Aliases.Interactive.Border.Warning.Active": "55dc6327df4a01f862c5da6207c4ea6d74cdf8d9",
+        "Aliases.Interactive.Text.Color": "c59ebce90064e71f401f0ca8f91b7ce7b0c94b95",
+        "Aliases.Interactive.Text.Primary.Selected": "251a3e8c870a1b89e3f90f08f06fd40cafa71ec7",
+        "Aliases.Interactive.Text.Primary.Active": "92e46a2976429907d73aaa1988b26493a3705983",
+        "Aliases.Interactive.Text.Primary.Hover": "1fbcf345544f06d4d7263827e0ed602223081903",
+        "Aliases.Interactive.Text.Primary.Default": "6f0d3eecd78cfaddd691a2bb42c198c84dfbf93d",
+        "Aliases.Interactive.Text.Secondary.Selected": "06e9fbf53671f0b981eaaf2e8c9d31d82e97eea6",
+        "Aliases.Interactive.Text.Secondary.Active": "4d4cc1b5fe47fff0ee6e1743694dc0fe34293bb2",
+        "Aliases.Interactive.Text.Secondary.Hover": "fa811a0f46a0f24bb4518ac7359f106b910854a3",
+        "Aliases.Interactive.Text.Secondary.Default": "1f2cabb088371a285835f8cd961b8a64748ddace",
+        "Foundation.Data.Info.800": "6a3c35ca3c8af09c873a33b0c61872771114c890",
+        "Foundation.Data.Info.500": "1071297a4062090d80db711c0f54ece891be9e40",
+        "Foundation.Data.Info.900": "11910b556408a7bbc265e016a68d8f63576bd913",
+        "Foundation.Data.Info.700": "6972e885b1ff56d088b8583fbdfda6368ea18a61",
+        "Foundation.Data.Info.400": "6896ed0d9e97846c6e6a452fd9b45358f7750746",
+        "Foundation.Data.Info.300": "3aac5fe3868c887605c1e448afd3c1f3ef1d6db8",
+        "Foundation.Data.Info.200": "31e946d1a6244149ce0504296e1efe75e26a496c",
+        "Foundation.Data.Info.600": "87778fc79c6e18c2ec673a18e7e52a528a2016dd",
+        "Foundation.Data.Info.50": "4039a426feb149bbb0b99ee02c7eb5907deb3e2e",
+        "Foundation.Data.Info.950": "74a362dd290617a98e1c0f3bf5acdaf51aef26a8",
+        "Foundation.Data.Info.100": "8b49b8c7e1cfd3f9017ce782bafa6548b78e6ef6",
+        "Foundation.Data.Critical.800": "c5f3402c64c690b163fddb23f921153683ce8a1f",
+        "Foundation.Data.Critical.500": "97778f0af8729fe2826a032b10c7eba7a0a7608a",
+        "Foundation.Data.Critical.400": "946d0af383d811b1fc41f4d050e6e5e7cfc4b375",
+        "Foundation.Data.Critical.700": "b6702a291f6d5cfcf85aa0e6083d1bdf8ae544a3",
+        "Foundation.Data.Critical.300": "30ddba277ae61a04dd10a53fb3a4964cdbb6751c",
+        "Foundation.Data.Critical.200": "14fc726b558d0cd61e69f506b8758ad63cdd44c7",
+        "Foundation.Data.Critical.100": "8f94badc68df4bea6bf407773b511ab2def2acd8",
+        "Foundation.Data.Critical.900": "a67c9932acb725a0c53c82e6dd8a8afdcf549419",
+        "Foundation.Data.Critical.950": "13da86c5a595d4ffccf525a1b4d113fb973725fb",
+        "Foundation.Data.Critical.600": "6bcced9dbb21ff7c990bb713a56f44cdf6c6e899",
+        "Foundation.Data.Critical.50": "61b1e9ce5aaf85b15abe8e49910187df7cb1b782",
+        "Foundation.Data.Warning.900": "05ade99c8e4fed5cec9d5a7aef96e1c9445ba42f",
+        "Foundation.Data.Warning.800": "77c424af67a6260a8a380cf8cc8afe1df4d83596",
+        "Foundation.Data.Warning.600": "5870246b1bcc1b2f21d6c0619232acd199487384",
+        "Foundation.Data.Warning.300": "3791b3a3a7b0c8e0ca79018b2d80a4fb41587d87",
+        "Foundation.Data.Warning.500": "3ee3809beb9f3943d8a9df29b070aeb2ddaf5736",
+        "Foundation.Data.Warning.200": "08c4db4e0cbbd7e1a65a3cf61bfc00eeeb3a9a78",
+        "Foundation.Data.Warning.700": "e35843925ec7c87ef6abcc561a84f32c3cf52407",
+        "Foundation.Data.Warning.400": "58009287181232d01b588b48fdb75c50b14b6c41",
+        "Foundation.Data.Warning.100": "8cd3466781e3f852e900bb4700c9db17f97b4f5e",
+        "Foundation.Data.Warning.950": "e2e75789dffb4b7297e361f792fe0cfe2ff497b7",
+        "Foundation.Data.Warning.50": "f25992b5a42975508807b7ac5e424e13ae94fe74",
+        "Foundation.Data.Success.900": "71376406a73e415982aade5040f3b1385a581074",
+        "Foundation.Data.Success.600": "00aa2f847489dfe364c0487fa42c0b91ec802525",
+        "Foundation.Data.Success.500": "1cba655aa357beb96c25f76d77b19e72879889f5",
+        "Foundation.Data.Success.950": "a6a865e4d9f494d8ce1e7db434110e6e6692163c",
+        "Foundation.Data.Success.800": "cd34382deb639c6d1e8890168ab37c0ec684f8ab",
+        "Foundation.Data.Success.700": "fddf3961c1608ad77c31451bb64b71a0f8ab3d83",
+        "Foundation.Data.Success.400": "f0ffd76d84eb5ab9841689a39651c4bcc3a6b37e",
+        "Foundation.Data.Success.50": "7cac35b81c1f202c1329f565c4357d3970dc55d0",
+        "Foundation.Data.Success.100": "7535f71b1d69c0d7ed192838cb1d1548479bc23c",
+        "Foundation.Data.Success.300": "0a5986dc10cc0cec6e3b64633737a6dc3fa1e1bd",
+        "Foundation.Data.Success.200": "9e7b7a5d6a5ff7f98baa8412fd7f2e30c46066e4",
+        "Foundation.Data.Intelligence.800": "01ce38202ec48ccf267f233c08ee661169b7a573",
+        "Foundation.Data.Intelligence.600": "baf3f82e3db99aad89729acaf9ff78d9599d3d1f",
+        "Foundation.Data.Intelligence.900": "8fa73d1ce31b08465fa8847bff39f79323996440",
+        "Foundation.Data.Intelligence.700": "24a31962904864a90624a67fb51f4e32a1cd99b2",
+        "Foundation.Data.Intelligence.500": "c1928483d9f96772be4e4b40bf79a81fb3cc1afe",
+        "Foundation.Data.Intelligence.950": "1a2a84a7badf19e8f2441eecdf5eba4718408af8",
+        "Foundation.Data.Intelligence.300": "8ad9fc525de90048d6f440159218b9c27d7f3c13",
+        "Foundation.Data.Intelligence.200": "ed55bbe9133a6e431f7b01a3ef0c292f7c31bfad",
+        "Foundation.Data.Intelligence.400": "2beb309e195572262617f0c9d707582a257ab438",
+        "Foundation.Data.Intelligence.100": "48fdbe77a966201a5a4160f87c5a30d275895d0a",
+        "Foundation.Data.Intelligence.50": "a26e827dc74d2c7c00479c4cee9150f4cbbba0fa",
+        "Foundation.Data.Neutral.800": "10ccf6fd3c9fe4f8d69caf7cd020af94d9975117",
+        "Foundation.Data.Neutral.700": "faaba4141d6c939d970a9bd6cb378c2447514dc9",
+        "Foundation.Data.Neutral.600": "9b9220413a80685a9b503338a615a552d996e528",
+        "Foundation.Data.Neutral.900": "821b51177160974f3c98d204396fcdd69b9d7d7f",
+        "Foundation.Data.Neutral.500": "85123e984cabde5d6f057a6d50807a70cee03fd9",
+        "Foundation.Data.Neutral.300": "88d1c101453ad90689122eeef8525ddd0fcd9dc7",
+        "Foundation.Data.Neutral.950": "b84342463babc8210a4bdf9993c537bd77b353bf",
+        "Foundation.Data.Neutral.400": "8b4f62632739d06bc3543efe88e7e67b0cde1ebf",
+        "Foundation.Data.Neutral.200": "ff225ab77a6b852e14de1e9026b2a4dd827da826",
+        "Foundation.Data.Neutral.100": "6da7d70bdb727b0620a5fab1cc0d5ff2fc3f4937",
+        "Foundation.Data.Neutral.50": "ae51e20618eae815eb662dfb15989f54cae87c97",
+        "Foundation.Data.Neutral.00": "144a89eca12107f1d8dcbc2f98fb215d0157c733",
+        "Aliases.Chart.Crtitical.Background.Low": "bd49395a7b226718d484141ba0edd4a5744f5cca",
+        "Aliases.Chart.Crtitical.Background.Low-Emphasis": "2b0db94dd1f41b40ac5c8fb69d9461172db352cf",
+        "Aliases.Chart.Crtitical.Background.Normal": "97e9440de53a320c382f8d131f57828f550588fe",
+        "Aliases.Chart.Crtitical.Background.Normal-Emphasis": "cb5671dc94db49f22464d0f0d87d9e8a86b44564",
+        "Aliases.Chart.Crtitical.Background.High": "fbe8155ccd2d125cf4fab5e1a0918652322a20a4",
+        "Aliases.Chart.Crtitical.Background.High-Emphasis": "bd7b3d3f14540236fbba8cc15569072d95e7b5d8",
+        "Aliases.Chart.Success.Background.Low": "fd8be5014ae1d118309cd3331ff15e56be3649d3",
+        "Aliases.Chart.Success.Background.Low-Emphasis": "a770b1e3a03847aa0cf98e7f16ea338d52354ddf",
+        "Aliases.Chart.Success.Background.Normal": "cfa56e542cc1fa26a5d1dd1f101ad443c6f7a5a8",
+        "Aliases.Chart.Success.Background.Normal-Emphasis": "d945960fd7348d49beea7e8545e528caabfa6565",
+        "Aliases.Chart.Success.Background.High": "f29c3d3f834f1db8f6e65cf5da3351f2bc6ed6c1",
+        "Aliases.Chart.Success.Background.High-Emphasis": "c1658194be505d91a454e65f2d92059399d99c02",
+        "Aliases.Chart.Warning.Background.Low": "937934e74bcae3777f95626b0df8cd1276018241",
+        "Aliases.Chart.Warning.Background.Low-Emphasis": "bace41e9ca92203460131ad75d848890ad15ad55",
+        "Aliases.Chart.Warning.Background.Normal": "82293481ae4fb66767af0d2eb5d739b68fecb657",
+        "Aliases.Chart.Warning.Background.Normal-Emphasis": "e6fd92d3e23868f78d1ee259c44f58db8da36568",
+        "Aliases.Chart.Warning.Background.High": "f3868d0503f02a304845004a18a72a6875012c3b",
+        "Aliases.Chart.Warning.Background.High-Emphasis": "2fb84ec41ea3b462eaee37bca793cf8ee1dd09b5",
+        "Aliases.Chart.Neutral.Background.Low": "a9b9a9d666cd101b38d885eeb3dc5900489f5f02",
+        "Aliases.Chart.Neutral.Background.Low-Emphasis": "9a23e48c3f0c6c590ae342249b59b03227aa4891",
+        "Aliases.Chart.Neutral.Background.Normal": "0cc82f93165fe31f220cf4864319a8132227f7d8",
+        "Aliases.Chart.Neutral.Background.Normal-Emphasis": "cfb326c671420b928d0b942a192cabdcaaa4c6e8",
+        "Aliases.Chart.Neutral.Background.High": "a55ac5a51228b5dcb4c6da222f212b8b86094889",
+        "Aliases.Chart.Neutral.Background.High-Emphasis": "943b4b18c5388e765a258084d07c6e891860b1aa",
+        "Aliases.Chart.Primary.Background.Low": "e9601fbdf2d75a30b2c5fd1455c353e00556e41d",
+        "Aliases.Chart.Primary.Background.Low-Emphasis": "580fcb8b0990cba6b67bff9eae393b5a43f1e51a",
+        "Aliases.Chart.Primary.Background.Normal": "51b2bf6e61239f9906a1a35872dd16d58d1ed3b1",
+        "Aliases.Chart.Primary.Background.Normal-Emphasis": "42034d5b5251ea727d7c8bb478ece773971945c7",
+        "Aliases.Chart.Primary.Background.High": "47d3ffcc263577d54fd84508d2075a115333ea66",
+        "Aliases.Chart.Primary.Background.High-Emphasis": "2501b60b60cb13772fdfaa139b6a2aeb679ec305",
+        "Aliases.Chart.Primary.Fill.Low": "609b790f96c8237985437e9591f1c045b203d740",
+        "Aliases.Chart.Primary.Fill.Normal": "7cd4812427c6e30fbba19bbf321f44377ddb800f",
+        "Aliases.Chart.Primary.Fill.High": "3c97661fd72bea674b21325724ac7bb3650d338e",
+        "Aliases.Chart.Neutral.Fill.Low": "b0fb4f6d868497ed8434c219c84257b7c5cecec5",
+        "Aliases.Chart.Neutral.Fill.Normal": "f3c33e66aca8e6ca20da36b563ec47ac9d111e86",
+        "Aliases.Chart.Neutral.Fill.High": "cf7936edec5cc0bfd3a35226f969739be04da358",
+        "Aliases.Chart.Crtitical.Fill.Normal": "5bcdfb19fdde03f7318ee982ee808559936db577",
+        "Aliases.Chart.Crtitical.Fill.Low": "626cd05609d94c81bcf476afdacc6bce64d694b6",
+        "Aliases.Chart.Crtitical.Fill.High": "ef82ab0b6a69d816b2c2d4e2e36579a86b0ee537",
+        "Aliases.Chart.Success.Fill.Normal": "df884172c5e5c92fe3044cd8845879535985efcd",
+        "Aliases.Chart.Success.Fill.Low": "7ac2579cd768381aee8084ec51f2e886f8d17d09",
+        "Aliases.Chart.Success.Fill.High": "626f75ad8da100b20f4632eaaaaf72ea3ac7f731",
+        "Aliases.Chart.Warning.Fill.Normal": "0b8de7553b2efce8a638ee6b1e1d578870481c0e",
+        "Aliases.Chart.Warning.Fill.Low": "7355428ece80ba67af6fc8f2c37845443ccc0fe3",
+        "Aliases.Chart.Warning.Fill.High": "61aba5d3a9fd20c55495820c871e07482f796bcc",
+        "Foundation.General.Neutral.1100": "b4f159d9beb6eec04152e6bf50f3fa4c6375ca47"
+      },
+      "$figmaModeId": "24516:0",
+      "$figmaCollectionId": "VariableCollectionId:584:79852"
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "1. Colors",
+      "1. Colors/Light mode",
+      "1. Colors/Dark mode",
+      "test"
+    ]
+  }
+}
