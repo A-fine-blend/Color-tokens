@@ -1,0 +1,796 @@
+{
+  "aliases": {
+    "background": {
+      "level-background-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.200}",
+        "$description": "d"
+      },
+      "level-background": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.100}"
+      },
+      "level-surface-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.50}"
+      },
+      "success-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.success.100}"
+      },
+      "critical-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.critical.100}"
+      },
+      "neutral-inverse": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.900}"
+      },
+      "level-blanket": {
+        "$type": "color",
+        "$value": "{foundation.alpha.neutral.600}"
+      },
+      "intelligence": {
+        "$type": "color",
+        "$value": "{foundation.general.intelligence.50}",
+        "$description": "ai and automation"
+      },
+      "critical": {
+        "$type": "color",
+        "$value": "{foundation.general.critical.50}"
+      },
+      "warning-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.warning.100}"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{foundation.general.info.50}"
+      },
+      "info-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.info.100}"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{foundation.general.success.50}"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{foundation.general.warning.50}"
+      },
+      "level-surface": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.00}"
+      },
+      "intelligence-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.intelligence.100}",
+        "$description": "ai and automation"
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{foundation.general.brand.50}",
+        "$description": "ai and automation"
+      },
+      "brand-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.brand.100}",
+        "$description": "ai and automation"
+      }
+    },
+    "border": {
+      "brand": {
+        "$type": "color",
+        "$value": "{foundation.general.brand.200}"
+      },
+      "intelligence": {
+        "$type": "color",
+        "$value": "{foundation.general.intelligence.200}",
+        "$description": "ai and automation"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{foundation.general.warning.200}"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{foundation.general.success.200}"
+      },
+      "critical-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.critical.500}"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{foundation.general.info.200}"
+      },
+      "neutral-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.300}"
+      },
+      "brand-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.brand.500}"
+      },
+      "success-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.success.500}"
+      },
+      "intelligence-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.intelligence.500}",
+        "$description": "ai and automation"
+      },
+      "critical": {
+        "$type": "color",
+        "$value": "{foundation.general.critical.200}"
+      },
+      "neutral": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.200}"
+      },
+      "info-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.info.500}"
+      },
+      "warning-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.warning.500}"
+      },
+      "neutral-inverse": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.00}"
+      }
+    },
+    "text": {
+      "brand": {
+        "$type": "color",
+        "$value": "{foundation.general.brand.600}"
+      },
+      "intelligence-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.intelligence.950}",
+        "$description": "ai and automation"
+      },
+      "critical": {
+        "$type": "color",
+        "$value": "{foundation.general.critical.600}"
+      },
+      "warning-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.warning.950}"
+      },
+      "intelligence": {
+        "$type": "color",
+        "$value": "{foundation.general.intelligence.600}",
+        "$description": "ai and automation"
+      },
+      "neutral-inverse": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.00}"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{foundation.general.warning.600}"
+      },
+      "success-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.success.950}"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{foundation.general.success.600}"
+      },
+      "brand-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.brand.950}"
+      },
+      "info-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.info.950}"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{foundation.general.info.600}"
+      },
+      "neutral": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.900}"
+      },
+      "neutral-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.950}"
+      },
+      "critical-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.critical.950}"
+      },
+      "neutral-subdued": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.700}"
+      }
+    },
+    "icon": {
+      "success-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.success.600}"
+      },
+      "info-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.info.600}"
+      },
+      "neutral-disabled": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.500}"
+      },
+      "intelligence-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.intelligence.600}",
+        "$description": "ai and automation"
+      },
+      "neutral-subdued": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.600}"
+      },
+      "intelligence": {
+        "$type": "color",
+        "$value": "{foundation.general.intelligence.500}",
+        "$description": "ai and automation"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{foundation.general.info.500}"
+      },
+      "neutral-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.900}"
+      },
+      "critical": {
+        "$type": "color",
+        "$value": "{foundation.general.critical.500}"
+      },
+      "warning-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.warning.800}"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{foundation.general.success.500}"
+      },
+      "neutral-inverse": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.00}"
+      },
+      "critical-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.critical.600}"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{foundation.general.warning.500}"
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{foundation.general.brand.500}"
+      },
+      "brand-emphasis": {
+        "$type": "color",
+        "$value": "{foundation.general.brand.600}"
+      },
+      "neutral": {
+        "$type": "color",
+        "$value": "{foundation.general.neutral.800}"
+      }
+    },
+    "interactive": {
+      "background": {
+        "primary": {
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.general.info.800}"
+          },
+          "selected": {
+            "$type": "color",
+            "$value": "{foundation.general.info.800}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.general.info.700}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.general.info.600}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{foundation.general.info.400}"
+          }
+        },
+        "secondary": {
+          "selected": {
+            "$type": "color",
+            "$value": "{foundation.alpha.neutral.500}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.alpha.neutral.300}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.alpha.neutral.200}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.alpha.neutral.100}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{foundation.alpha.neutral.400}"
+          }
+        },
+        "tertiary": {
+          "selected": {
+            "$type": "color",
+            "$value": "{foundation.alpha.info.50}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.alpha.neutral.200}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.alpha.neutral.100}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.alpha.neutral.00}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{foundation.alpha.neutral.50}"
+          }
+        },
+        "ghost": {
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.alpha.neutral.200}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.alpha.neutral.100}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.alpha.neutral.00}"
+          }
+        },
+        "success": {
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.general.success.800}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.general.success.700}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.general.success.600}"
+          }
+        },
+        "warning": {
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.general.warning.300}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.general.warning.400}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.general.warning.200}"
+          }
+        },
+        "critical": {
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.general.critical.700}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.general.critical.800}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.general.critical.600}"
+          }
+        },
+        "brand": {
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.general.brand.600}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.general.brand.700}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.general.brand.800}"
+          }
+        },
+        "intelligence": {
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.general.intelligence.600}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.general.intelligence.700}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.general.intelligence.800}"
+          }
+        }
+      },
+      "border": {
+        "secondary": {
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.general.neutral.600}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.general.neutral.500}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.general.neutral.400}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{foundation.general.neutral.200}"
+          }
+        },
+        "critical": {
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.general.critical.600}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.general.critical.800}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.general.critical.700}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{foundation.general.critical.200}"
+          }
+        },
+        "warning": {
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.general.warning.400}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.general.warning.500}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.general.warning.600}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{foundation.general.warning.200}"
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "selected": {
+            "$type": "color",
+            "$value": "{foundation.general.info.900}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.general.info.800}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.general.info.700}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.general.info.600}"
+          }
+        },
+        "secondary": {
+          "selected": {
+            "$type": "color",
+            "$value": "{foundation.general.neutral.950}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{foundation.general.neutral.950}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{foundation.general.neutral.800}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{foundation.general.neutral.900}"
+          }
+        },
+        "warning": {
+          "default": {
+            "$type": "color",
+            "$value": "{aliases.text.neutral-emphasis}",
+            "$description": "exception to preserve contrast"
+          }
+        }
+      }
+    },
+    "chart": {
+      "critical": {
+        "background": {
+          "low": {
+            "$type": "color",
+            "$value": "{foundation.data.critical.50}"
+          },
+          "low-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.critical.100}"
+          },
+          "normal": {
+            "$type": "color",
+            "$value": "{foundation.data.critical.300}"
+          },
+          "normal-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.critical.400}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{foundation.data.critical.600}"
+          },
+          "high-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.critical.700}"
+          }
+        },
+        "foreground": {
+          "normal": {
+            "$type": "color",
+            "$value": "{foundation.data.critical.600}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{foundation.data.critical.300}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{foundation.data.critical.900}"
+          }
+        }
+      },
+      "success": {
+        "background": {
+          "low": {
+            "$type": "color",
+            "$value": "{foundation.data.success.50}"
+          },
+          "low-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.success.100}"
+          },
+          "normal": {
+            "$type": "color",
+            "$value": "{foundation.data.success.300}"
+          },
+          "normal-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.success.400}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{foundation.data.success.600}"
+          },
+          "high-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.success.700}"
+          }
+        },
+        "foreground": {
+          "normal": {
+            "$type": "color",
+            "$value": "{foundation.data.success.600}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{foundation.data.success.300}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{foundation.data.success.900}"
+          }
+        }
+      },
+      "warning": {
+        "background": {
+          "low": {
+            "$type": "color",
+            "$value": "{foundation.data.warning.50}"
+          },
+          "low-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.warning.100}"
+          },
+          "normal": {
+            "$type": "color",
+            "$value": "{foundation.data.warning.300}"
+          },
+          "normal-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.warning.400}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{foundation.data.warning.600}"
+          },
+          "high-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.warning.700}"
+          }
+        },
+        "foreground": {
+          "normal": {
+            "$type": "color",
+            "$value": "{foundation.data.warning.600}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{foundation.data.warning.300}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{foundation.data.warning.900}"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "$type": "color",
+            "$value": "{foundation.data.neutral.50}"
+          },
+          "low-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.neutral.100}"
+          },
+          "normal": {
+            "$type": "color",
+            "$value": "{foundation.data.neutral.300}"
+          },
+          "normal-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.neutral.400}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{foundation.data.neutral.600}"
+          },
+          "high-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.neutral.700}"
+          }
+        },
+        "foreground": {
+          "low": {
+            "$type": "color",
+            "$value": "{foundation.data.neutral.300}"
+          },
+          "normal": {
+            "$type": "color",
+            "$value": "{foundation.data.neutral.600}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{foundation.data.neutral.900}"
+          }
+        }
+      },
+      "primary": {
+        "background": {
+          "low": {
+            "$type": "color",
+            "$value": "{foundation.data.info.50}"
+          },
+          "low-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.info.100}"
+          },
+          "normal": {
+            "$type": "color",
+            "$value": "{foundation.data.info.300}"
+          },
+          "normal-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.info.400}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{foundation.data.info.600}"
+          },
+          "high-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.info.700}"
+          }
+        },
+        "foreground": {
+          "low": {
+            "$type": "color",
+            "$value": "{foundation.data.info.300}"
+          },
+          "normal": {
+            "$type": "color",
+            "$value": "{foundation.data.info.600}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{foundation.data.info.900}"
+          }
+        }
+      },
+      "intelligence": {
+        "foreground": {
+          "low": {
+            "$type": "color",
+            "$value": "{foundation.data.intelligence.300}"
+          },
+          "normal": {
+            "$type": "color",
+            "$value": "{foundation.data.intelligence.600}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{foundation.data.intelligence.900}"
+          }
+        },
+        "background": {
+          "low": {
+            "$type": "color",
+            "$value": "{foundation.data.intelligence.50}"
+          },
+          "low-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.intelligence.100}"
+          },
+          "normal": {
+            "$type": "color",
+            "$value": "{foundation.data.intelligence.300}"
+          },
+          "normal-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.intelligence.400}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{foundation.data.intelligence.600}"
+          },
+          "high-emphasis": {
+            "$type": "color",
+            "$value": "{foundation.data.intelligence.700}"
+          }
+        }
+      }
+    }
+  }
+}

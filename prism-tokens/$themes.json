@@ -1,0 +1,42 @@
+[
+  {
+    "id": "8aca57ed3ffbbd770f3dddecb371ac41b10e5bcd",
+    "name": "Light mode",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "alias": "enabled",
+      "foundation-base": "enabled"
+    },
+    "group": "prism-colors"
+  },
+  {
+    "id": "53c9591aba033f1193c6efd8dd85529a9778b847",
+    "name": "Light mode - hc",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "foundation-light-hc": "enabled",
+      "alias": "enabled"
+    },
+    "group": "prism-colors"
+  },
+  {
+    "id": "61e1ff7a61e8646274a4342af5d77e8c133711ca",
+    "name": "Dark mode",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "foundation-dark": "enabled",
+      "alias": "enabled"
+    },
+    "group": "prism-colors"
+  },
+  {
+    "id": "46cabaf07ff85cf4e7edbe9514367db6531a7d53",
+    "name": "Dark mode - hc",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "foundation-dark-hc": "enabled",
+      "alias": "enabled"
+    },
+    "group": "prism-colors"
+  }
+]

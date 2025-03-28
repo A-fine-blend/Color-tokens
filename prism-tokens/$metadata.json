@@ -1,0 +1,9 @@
+{
+  "tokenSetOrder": [
+    "foundation-base",
+    "foundation-light-hc",
+    "foundation-dark",
+    "foundation-dark-hc",
+    "alias"
+  ]
+}
